@@ -1,0 +1,51 @@
+// selector universal //
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// selector universal //
+
+// barra de navegacion // 
+.navbar {
+    background-color: black;
+    height: auto !important;
+
+    a {
+        font-size: 26px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 10px;
+        transition: color 0.3s linear 0.2s;
+
+        &:hover {
+            color: #e95b2b !important;
+        }
+    }
+}
+// barra de navegacion //
+
+// portada index //
+.jumbotronportada {
+    background-image: url(./images/imgdescargadas/index1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    h1 {
+        color: white;
+        text-shadow: 0 0 15px black;
+        padding-right: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+}
+// portada index //
