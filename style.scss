@@ -1127,11 +1127,11 @@
 
 // seccion3 Choperas //
 
-.seccion3choperas{
+.seccion3choperas {
     height: 100px;
 }
 
-.seccion3choperas h2{
+.seccion3choperas h2 {
     color: #e95b2b;
     text-shadow: 0 0 10px black;
     font: 60px;
@@ -1140,7 +1140,7 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.imgseccion3choperas{
+.imgseccion3choperas {
     background-image: url(./images/imgseccion3choperas.png);
     background-size: cover;
     background-position: center;
@@ -1154,3 +1154,56 @@
 
 // ----------------------------------------------- inicio de pagina CONTACTO ---------------------------------------------- //
 
+.txtcontacto {
+    color: white;
+    text-shadow: 0 0 15px black;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+.formulario {
+    background-image: url(./images/portadacontacto.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 2px black;
+    display: row;
+    align-items: center;
+
+    .nombreyapellido,
+    .email,
+    .codigodearea,
+    .telefono,
+    .motivoconsulta,
+    .mensaje {
+        font-size: 20px;
+        padding-bottom: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .nombreyapellido {
+        padding-bottom: 30px;
+    }
+
+    .btncontacto {
+        background-color: #e95b2b;
+        border-radius: 5px;
+        border: solid 1px white;
+        color: white;
+        font-size: 20px;
+        padding: 8px 10px;
+        font-family: 'Oswald', sans-serif;
+        transition: all 0.9s;
+
+        &:hover {
+            transform: scale(1.08);
+        }
+    }
+}
+
+// ------------------------------------------------ cierre de pagina CONTACTO ------------------------------------------ //

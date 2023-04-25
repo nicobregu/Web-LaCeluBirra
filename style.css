@@ -900,4 +900,52 @@
   margin-top: 15px;
 }
 
+.txtcontacto {
+  color: white;
+  text-shadow: 0 0 15px black;
+  padding-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+.formulario {
+  background-image: url(./images/portadacontacto.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 2px black;
+  display: row;
+  align-items: center;
+}
+.formulario .nombreyapellido,
+.formulario .email,
+.formulario .codigodearea,
+.formulario .telefono,
+.formulario .motivoconsulta,
+.formulario .mensaje {
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-family: "Oswald", sans-serif;
+}
+.formulario .nombreyapellido {
+  padding-bottom: 30px;
+}
+.formulario .btncontacto {
+  background-color: #e95b2b;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: white;
+  font-size: 20px;
+  padding: 8px 10px;
+  font-family: "Oswald", sans-serif;
+  transition: all 0.9s;
+}
+.formulario .btncontacto:hover {
+  transform: scale(1.08);
+}
+
 /*# sourceMappingURL=style.css.map */
