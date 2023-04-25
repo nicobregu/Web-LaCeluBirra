@@ -289,21 +289,21 @@
 
 // seccion1 Nosotros //
 
-.seccion1Nos{
+.seccion1Nos {
     height: auto;
     margin-bottom: 0;
     padding: 15px;
     padding-bottom: 15px;
 }
 
-.articleNos1{
+.articleNos1 {
     background-image: url(./images/nosotros2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
 }
 
-.asideNos1 h2{
+.asideNos1 h2 {
     text-align: center;
     color: #e95b2b;
     text-shadow: 0 0 10px black;
@@ -311,7 +311,7 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.asideNos1 h3{
+.asideNos1 h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
 }
@@ -320,13 +320,13 @@
 
 // seccion2 Nosotros //
 
-.seccion2Nos{
+.seccion2Nos {
     height: auto;
     padding: 25px;
     padding-bottom: 25px;
 }
 
-.article2Nos h2{
+.article2Nos h2 {
     text-align: center;
     color: #e95b2b;
     text-shadow: 0 0 10px black;
@@ -334,14 +334,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.article2Nos h3{
+.article2Nos h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 38px;
 }
 
-.aside2Nos{
+.aside2Nos {
     background-image: url(./images/apasionadosnosotros.png);
     background-position: center;
     background-size: cover;
@@ -353,13 +353,13 @@
 
 // seccion3 Nosotros //
 
-.seccion3Nos{
+.seccion3Nos {
     height: auto;
     padding: 25px;
     padding-bottom: 25px;
 }
 
-.article3Nos{
+.article3Nos {
     background-image: url(./images/nosotros3.png);
     background-position: center;
     background-size: cover;
@@ -367,7 +367,7 @@
     border-radius: 5px;
 }
 
-.aside3Nos h2{
+.aside3Nos h2 {
     text-align: center;
     color: #e95b2b;
     text-shadow: 0 0 10px black;
@@ -375,7 +375,7 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.aside3Nos h3{
+.aside3Nos h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -386,13 +386,13 @@
 
 // seccion4 Nosotros //
 
-.seccion4Nos{
+.seccion4Nos {
     height: auto;
     padding: 25px;
-    padding-bottom: 25px;    
+    padding-bottom: 25px;
 }
 
-.article4Nos h2{
+.article4Nos h2 {
     text-align: center;
     color: #e95b2b;
     text-shadow: 0 0 10px black;
@@ -400,14 +400,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.article4Nos h3{
+.article4Nos h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 38px;
 }
 
-.aside4Nos{
+.aside4Nos {
     background-image: url(./images/nosotros4.JPG);
     background-position: top;
     background-size: cover;
@@ -416,3 +416,212 @@
 }
 
 // seccion4 Nosotros //
+
+// ---------------------------------------------- cierre de pagina NOSOTROS -------------------------------------------- //
+
+// ---------------------------------------------- inicio de pagina PRODUCTOS ------------------------------------------- //
+
+// portada productos //
+
+.portadaproductos {
+    background-image: url(./images/fondoproductos.png);
+    background-position: top;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    h1 {
+        color: white;
+        text-shadow: 0 0 15px black;
+        margin-right: 100px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+}
+
+// portada Productos //
+
+.mainproductos {
+    height: auto;
+    background: rgb(35, 31, 32);
+    background: linear-gradient(180deg,
+            rgba(35, 31, 32, 1) 0%,
+            rgba(233, 91, 43, 1) 50%,
+            rgba(35, 31, 32, 1) 100%);
+}
+
+// seccion1 Productos //
+
+.containerlatasPro {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 15px;
+
+    .latasPro {
+        height: 130px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        h2 {
+            color: #e95b2b;
+            text-align: center;
+            font-size: 45px;
+            text-shadow: 0 0 10px black;
+            font-family: 'Bebas Neue', cursive;
+            padding-top: 8px;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .imglatasPro {
+            background-image: url(./images/latasproductos.png);
+            background-position: center;
+            background-size: cover;
+            height: 700px;
+            margin-top: 20px;
+        }
+    }
+}
+
+// seccion1 Productos //
+
+// seccion2 Productos //
+
+.containergrowlersPro{
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 15px;
+
+    .growlersPro{
+        height: 130px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        h2{
+            color: #e95b2b;
+            text-align: center;
+            font-size: 45px;
+            text-shadow: 0 0 10px black;
+            font-family: 'Bebas Neue', cursive;
+        }
+
+        p{
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+
+    .imggrowlersPro{
+        background-image: url(./images/growlerproductos.png);
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+        margin-top: 20px;
+    }
+}
+
+// seccion2 Productos //
+
+// seccion3 Productos //
+
+.containterchoperasPro{
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.choperasPro{
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.choperasPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.choperasPro p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imgchoperasPro{
+    background-image: url(./images/choperasproductos.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 20px;
+}
+
+// seccion3 Productos //
+
+// seccion4 Productos //
+
+.containerbarrilesPro{
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.barrilesPro{
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.barrilesPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.barrilesPro p{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imgbarrilesPro{
+    background-image: url(./images/barrilesproductos.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 20px;
+}
+
+// seccion4 Productos //
+
+// ---------------------------------------------- cierre de pagina PRODUCTOS ---------------------------------------------- //
+
+// ---------------------------------------------- inicio de pagina ESTILOS ------------------------------------------------ //
+
+
+
+
+
+
+

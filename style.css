@@ -333,4 +333,166 @@
   border-radius: 5px;
 }
 
+.portadaproductos {
+  background-image: url(./images/fondoproductos.png);
+  background-position: top;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.portadaproductos h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-right: 100px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+.mainproductos {
+  height: auto;
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+}
+
+.containerlatasPro {
+  height: auto;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+.containerlatasPro .latasPro {
+  height: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.containerlatasPro .latasPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 8px;
+}
+.containerlatasPro .latasPro p {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+}
+.containerlatasPro .latasPro .imglatasPro {
+  background-image: url(./images/latasproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.containergrowlersPro {
+  height: auto;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+.containergrowlersPro .growlersPro {
+  height: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.containergrowlersPro .growlersPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+}
+.containergrowlersPro .growlersPro p {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+}
+.containergrowlersPro .imggrowlersPro {
+  background-image: url(./images/growlerproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.containterchoperasPro {
+  height: auto;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+
+.choperasPro {
+  height: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.choperasPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+}
+
+.choperasPro p {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+}
+
+.imgchoperasPro {
+  background-image: url(./images/choperasproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.containerbarrilesPro {
+  height: auto;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+
+.barrilesPro {
+  height: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.barrilesPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+}
+
+.barrilesPro p {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Oswald", sans-serif;
+}
+
+.imgbarrilesPro {
+  background-image: url(./images/barrilesproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
