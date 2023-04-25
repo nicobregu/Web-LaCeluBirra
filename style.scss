@@ -202,46 +202,46 @@
 
 // footer index //
 
-.footer{
+.footer {
     height: auto;
     background-color: black;
     padding: 2px;
 }
 
-.Fcenter{
+.Fcenter {
     background-color: black;
     text-align: center;
 }
 
-.Fcenter img{
+.Fcenter img {
     margin-top: 35px;
 }
 
-.Fright{
+.Fright {
     background-color: black;
     text-align: center;
 }
 
-.footer h2{
+.footer h2 {
     color: #e95b2b;
     text-shadow: 0 0 1px white;
     font-family: 'Bebas Neue', cursive;
     margin-top: 28px;
 }
 
-.footer p{
+.footer p {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
 
-.piedepagina{
+.piedepagina {
     background-color: black;
     text-align: center;
     padding: 8px;
 }
 
-.piedepagina h3{
+.piedepagina h3 {
     color: white;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
@@ -251,3 +251,168 @@
 }
 
 // footer index //
+
+// -------------------------------------- cierre de pagina INDEX ------------------------------------------------ //
+
+// -------------------------------------- inicio de pagina NOSOTROS --------------------------------------------- //
+
+// portada Nosotros //
+
+.jumbotronNos {
+    height: 650px;
+    background-image: url(./img/nosotros/portadanosotros.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+
+    h1 {
+        color: white;
+        text-shadow: 0 0 15px black;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+}
+
+.mainnosotros {
+    background: rgb(35, 31, 32);
+    background: linear-gradient(180deg,
+            rgba(35, 31, 32, 1) 0%,
+            rgba(233, 91, 43, 1) 50%,
+            rgba(35, 31, 32, 1) 100%);
+    height: auto;
+}
+
+// portada Nosotros //
+
+// seccion1 Nosotros //
+
+.seccion1Nos{
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.articleNos1{
+    background-image: url(./images/nosotros2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.asideNos1 h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.asideNos1 h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+// seccion1 Nosotros //
+
+// seccion2 Nosotros //
+
+.seccion2Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.article2Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.article2Nos h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 38px;
+}
+
+.aside2Nos{
+    background-image: url(./images/apasionadosnosotros.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+}
+
+// seccion2 Nosotros //
+
+// seccion3 Nosotros //
+
+.seccion3Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.article3Nos{
+    background-image: url(./images/nosotros3.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.aside3Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.aside3Nos h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 38px;
+}
+
+// seccion3 Nosotros //
+
+// seccion4 Nosotros //
+
+.seccion4Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;    
+}
+
+.article4Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.article4Nos h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 38px;
+}
+
+.aside4Nos{
+    background-image: url(./images/nosotros4.JPG);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+}
+
+// seccion4 Nosotros //

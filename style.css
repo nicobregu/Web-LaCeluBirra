@@ -196,4 +196,141 @@
   justify-content: center;
 }
 
+.jumbotronNos {
+  height: 650px;
+  background-image: url(./img/nosotros/portadanosotros.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+}
+.jumbotronNos h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+.mainnosotros {
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  height: auto;
+}
+
+.seccion1Nos {
+  height: auto;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+
+.articleNos1 {
+  background-image: url(./images/nosotros2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.asideNos1 h2 {
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.asideNos1 h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.seccion2Nos {
+  height: auto;
+  padding: 25px;
+  padding-bottom: 25px;
+}
+
+.article2Nos h2 {
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.article2Nos h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+.aside2Nos {
+  background-image: url(./images/apasionadosnosotros.png);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.seccion3Nos {
+  height: auto;
+  padding: 25px;
+  padding-bottom: 25px;
+}
+
+.article3Nos {
+  background-image: url(./images/nosotros3.png);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.aside3Nos h2 {
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.aside3Nos h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+.seccion4Nos {
+  height: auto;
+  padding: 25px;
+  padding-bottom: 25px;
+}
+
+.article4Nos h2 {
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.article4Nos h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+.aside4Nos {
+  background-image: url(./images/nosotros4.JPG);
+  background-position: top;
+  background-size: cover;
+  height: 300px;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
