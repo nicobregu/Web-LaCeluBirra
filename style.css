@@ -815,4 +815,89 @@
   align-items: center;
 }
 
+.portadachoperas {
+  background-image: url(./images/portadaalquilerdechoperas.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.portadachoperas h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+}
+
+.mainchoperas {
+  height: auto;
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+}
+
+.seccion1choperas {
+  height: 100px;
+}
+.seccion1choperas h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font: 60px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.imgseccion1choperas {
+  background-image: url(./images/imgseccion1choperas.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.seccion2choperas {
+  height: 100px;
+}
+.seccion2choperas h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font: 60px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Bebas Neue", cursive;
+}
+.seccion2choperas .imgseccion2choperas {
+  background-image: url(./images/imgseccion2choperas.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.seccion3choperas {
+  height: 100px;
+}
+
+.seccion3choperas h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font: 60px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.imgseccion3choperas {
+  background-image: url(./images/imgseccion3choperas.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

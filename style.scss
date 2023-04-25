@@ -969,7 +969,7 @@
     padding-bottom: 25px;
     height: auto;
 
-.intensidadleft {
+    .intensidadleft {
         h3 {
             color: white;
             font-family: 'Oswald', sans-serif;
@@ -982,14 +982,14 @@
         align-items: center;
     }
 
-.intensidadcenter {
+    .intensidadcenter {
         background-image: url(./images/estilosdecervezalogos/intensidad.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
-.intensidadright {
+    .intensidadright {
         background-image: url(./images/latassinfondo/lataintensidad.png);
         background-position: center;
         background-size: cover;
@@ -1002,28 +1002,28 @@
 
 // estilo Divino //
 
-.containerdivino{
+.containerdivino {
     background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
-.divinoleft{
+.divinoleft {
     background-image: url(./images/latassinfondo/latadivino.png);
     background-position: center;
     background-size: cover;
     height: 650px;
 }
 
-.divinocenter{
+.divinocenter {
     background-image: url(./images/estilosdecervezalogos/divino.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
 }
 
-.divinoright h3{
+.divinoright h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
@@ -1031,7 +1031,7 @@
     font-size: 40px;
 }
 
-.divinoright{
+.divinoright {
     display: flex;
     align-items: center;
 }
@@ -1042,4 +1042,115 @@
 
 // ------------------------------------------------- inicio de pagina CHOPERAS -------------------------------------- //
 
+// portada Choperas //
+
+.portadachoperas {
+    background-image: url(./images/portadaalquilerdechoperas.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    h1 {
+        color: white;
+        text-shadow: 0 0 15px black;
+        margin-bottom: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+}
+
+// portada choperas //
+
+.mainchoperas {
+    height: auto;
+    background: rgb(35, 31, 32);
+    background: linear-gradient(180deg,
+            rgba(35, 31, 32, 1) 0%,
+            rgba(233, 91, 43, 1) 50%,
+            rgba(35, 31, 32, 1) 100%);
+}
+
+// seccion1 Choperas //
+
+.seccion1choperas {
+    height: 100px;
+
+    h2 {
+        color: #e95b2b;
+        text-shadow: 0 0 10px black;
+        font: 60px;
+        text-align: center;
+        padding-top: 40px;
+        font-family: "Bebas Neue", cursive;
+    }
+}
+
+.imgseccion1choperas {
+    background-image: url(./images/imgseccion1choperas.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 15px;
+}
+
+// seccion1 Choperas //
+
+// seccion2 Choperas //
+
+.seccion2choperas {
+    height: 100px;
+
+    h2 {
+        color: #e95b2b;
+        text-shadow: 0 0 10px black;
+        font: 60px;
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .imgseccion2choperas {
+        background-image: url(./images/imgseccion2choperas.png);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        margin-top: 15px;
+    }
+}
+
+// seccion2 Choperas //
+
+// seccion3 Choperas //
+
+.seccion3choperas{
+    height: 100px;
+}
+
+.seccion3choperas h2{
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font: 60px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.imgseccion3choperas{
+    background-image: url(./images/imgseccion3choperas.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 15px;
+}
+
+// seccion3 Choperas //
+
+// ----------------------------------------------- cierre de pagina CHOPERAS ---------------------------------------------- //
+
+// ----------------------------------------------- inicio de pagina CONTACTO ---------------------------------------------- //
 
