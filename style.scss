@@ -65,10 +65,7 @@
 
 .mainindex {
     background: rgb(35, 31, 32);
-    background: linear-gradient(180deg,
-            rgba(35, 31, 32, 1) 0%,
-            rgba(233, 91, 43, 1) 50%,
-            rgba(35, 31, 32, 1) 100%);
+    background: linear-gradient(180deg, rgba(35, 31, 32, 1) 0%, rgba(233, 91, 43, 1) 50%, rgba(35, 31, 32, 1) 100%);
     height: auto;
 }
 
@@ -132,7 +129,7 @@
     }
 
     .imgnosotrosinicio {
-        background-image: url(./images/nosotros5.JPG);
+        background-image: url(./img/index/img1.JPG);
         background-position: bottom;
         background-size: cover;
         height: 650px;
@@ -150,7 +147,7 @@
     }
 
     .imgestilosinicio {
-        background-image: url(./images/imgestilosindex.png);
+        background-image: url(./img/index/img2.jpg);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -168,7 +165,7 @@
     }
 
     .imgvendelaceluinicio {
-        background-image: url(./images/vendelacelu.png);
+        background-image: url(./img/index/vendelaceluindex.jpg);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -206,6 +203,10 @@
     height: auto;
     background-color: black;
     padding: 2px;
+}
+
+.Fleft{
+    padding-left: 30px;
 }
 
 .Fcenter {
@@ -283,6 +284,7 @@
             rgba(233, 91, 43, 1) 50%,
             rgba(35, 31, 32, 1) 100%);
     height: auto;
+    padding-top: 15px;
 }
 
 // portada Nosotros //
@@ -297,7 +299,7 @@
 }
 
 .articleNos1 {
-    background-image: url(./images/nosotros2.jpg);
+    background-image: url(./img/nosotros/nosotros2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -342,7 +344,7 @@
 }
 
 .aside2Nos {
-    background-image: url(./images/apasionadosnosotros.png);
+    background-image: url(./img/nosotros/apasionadosnosotros.png);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -360,7 +362,7 @@
 }
 
 .article3Nos {
-    background-image: url(./images/nosotros3.png);
+    background-image: url(./img/nosotros/artesanosnosotros.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -408,7 +410,7 @@
 }
 
 .aside4Nos {
-    background-image: url(./images/nosotros4.JPG);
+    background-image: url(./img/nosotros/cervecerosnosotros.jpg);
     background-position: top;
     background-size: cover;
     height: 300px;
@@ -424,20 +426,20 @@
 // portada productos //
 
 .portadaproductos {
-    background-image: url(./images/fondoproductos.png);
+    background-image: url(./img/productos/portadaproductos.jpg);
     background-position: top;
     background-size: cover;
     height: 650px;
     margin-bottom: 0;
     border-radius: 0;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
 
     h1 {
         color: white;
         text-shadow: 0 0 15px black;
-        margin-right: 100px;
+        margin-left: 100px;
         font-family: 'Bebas Neue', cursive;
         font-size: 60px;
     }
@@ -448,10 +450,7 @@
 .mainproductos {
     height: auto;
     background: rgb(35, 31, 32);
-    background: linear-gradient(180deg,
-            rgba(35, 31, 32, 1) 0%,
-            rgba(233, 91, 43, 1) 50%,
-            rgba(35, 31, 32, 1) 100%);
+    background: linear-gradient(180deg, rgba(35, 31, 32, 1) 0%, rgba(233, 91, 43, 1) 50%, rgba(35, 31, 32, 1) 100%);
 }
 
 // seccion1 Productos //
@@ -484,7 +483,7 @@
         }
 
         .imglatasPro {
-            background-image: url(./images/latasproductos.png);
+            background-image: url(./img/productos/latasproductos.png);
             background-position: center;
             background-size: cover;
             height: 700px;
@@ -525,7 +524,7 @@
     }
 
     .imggrowlersPro {
-        background-image: url(./images/growlerproductos.png);
+        background-image: url(./img/productos/growlerproductos.png);
         background-position: center;
         background-size: cover;
         height: 700px;
@@ -566,7 +565,7 @@
 }
 
 .imgchoperasPro {
-    background-image: url(./images/choperasproductos.png);
+    background-image: url(./img/productos/choperasproductos.png);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -606,8 +605,8 @@
 }
 
 .imgbarrilesPro {
-    background-image: url(./images/barrilesproductos.png);
-    background-position: center;
+    background-image: url(./img/productos/barrilesproductos.jpg);
+    background-position: top;
     background-size: cover;
     height: 700px;
     margin-top: 20px;
@@ -622,9 +621,9 @@
 // portada Estilos //
 
 .portadaestilos {
-    background-image: url(./images/portadaestilos.png);
+    background-image: url(./img/estilos/portadaestilos.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 650px;
     margin-bottom: 0;
     border-radius: 0;
@@ -663,7 +662,7 @@
     height: auto;
 
     .goldenleft {
-        background-image: url(./images/latassinfondo/latagolden.png);
+        background-image: url(./img/estilos/latagolden.png);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -676,7 +675,7 @@
     }
 
     .goldencenter {
-        background-image: url(./images/estilosdecervezalogos/golden.png);
+        background-image: url(./img/estilos/goldenlogo.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
@@ -731,14 +730,14 @@
     }
 
     .ipacenter {
-        background-image: url(./images/estilosdecervezalogos/ipa.png);
+        background-image: url(./img/estilos/ipalogo.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
     .iparight {
-        background-image: url(./images/latassinfondo/lataipa.png);
+        background-image: url(./img/estilos/lataipa.png);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -774,7 +773,7 @@
     height: auto;
 
     .porterleft {
-        background-image: url(./images/latassinfondo/lataporter.png);
+        background-image: url(./img/estilos/lataporter.png);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -787,7 +786,7 @@
     }
 
     .portercenter {
-        background-image: url(./images/estilosdecervezalogos/porter.png);
+        background-image: url(./img/estilos/porterlogo.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
@@ -828,14 +827,14 @@
     }
 
     .dulcecenter {
-        background-image: url(./images/estilosdecervezalogos/dulce.png);
+        background-image: url(./img/estilos/dulcelogo.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
     .dulceright {
-        background-image: url(./images/latassinfondo/latadulce.png);
+        background-image: url(./img/estilos/latadulce.png);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -855,7 +854,7 @@
 }
 
 .kolschleft {
-    background-image: url(./images/latassinfondo/latakolsch.png);
+    background-image: url(./img/estilos/latakolsch.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -863,7 +862,7 @@
 }
 
 .kolschcenter {
-    background-image: url(./images/estilosdecervezalogos/kolsch.png);
+    background-image: url(./img/estilos/kolschlogo.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -907,14 +906,14 @@
 }
 
 .scotishcenter {
-    background-image: url(./images/estilosdecervezalogos/scotish.png);
+    background-image: url(./img/estilos/scotishlogo.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
 }
 
 .scotishright {
-    background-image: url(./images/latassinfondo/latascotish.png);
+    background-image: url(./img/estilos/latascotish.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -933,7 +932,7 @@
 }
 
 .laregalonaleft {
-    background-image: url(./images/latassinfondo/latalaregalona.png);
+    background-image: url(./img/estilos/latalaregalona.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -941,7 +940,7 @@
 }
 
 .laregalonacenter {
-    background-image: url(./images/estilosdecervezalogos/laregalona.png);
+    background-image: url(./img/estilos/laregalonalogo.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -963,6 +962,7 @@
 // estilo LaRegalona //
 
 // estilo Intensidad //
+
 .containerintensidad {
     background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
     padding: 25px;
@@ -983,14 +983,14 @@
     }
 
     .intensidadcenter {
-        background-image: url(./images/estilosdecervezalogos/intensidad.png);
+        background-image: url(./img/estilos/intensidadlogo.png);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
     .intensidadright {
-        background-image: url(./images/latassinfondo/lataintensidad.png);
+        background-image: url(./img/estilos/lataintensidad.png);
         background-position: center;
         background-size: cover;
         height: 650px;
@@ -1010,14 +1010,14 @@
 }
 
 .divinoleft {
-    background-image: url(./images/latassinfondo/latadivino.png);
+    background-image: url(./img/estilos/latadivino.png);
     background-position: center;
     background-size: cover;
     height: 650px;
 }
 
 .divinocenter {
-    background-image: url(./images/estilosdecervezalogos/divino.png);
+    background-image: url(./img/estilos/divinologo.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -1045,7 +1045,7 @@
 // portada Choperas //
 
 .portadachoperas {
-    background-image: url(./images/portadaalquilerdechoperas.png);
+    background-image: url(./img/choperas/portadaachoperas.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -1091,7 +1091,7 @@
 }
 
 .imgseccion1choperas {
-    background-image: url(./images/imgseccion1choperas.png);
+    background-image: url(./img/choperas/choperas1.png);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -1141,7 +1141,7 @@
 }
 
 .imgseccion3choperas {
-    background-image: url(./images/imgseccion3choperas.png);
+    background-image: url(./img/choperas/choperas3.png);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -1163,7 +1163,7 @@
 }
 
 .formulario {
-    background-image: url(./images/portadacontacto.png);
+    background-image: url(./img/contacto/portadacontacto.jpg);
     background-position: center;
     background-size: cover;
     height: 650px;
