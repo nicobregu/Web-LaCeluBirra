@@ -497,18 +497,18 @@
 
 // seccion2 Productos //
 
-.containergrowlersPro{
+.containergrowlersPro {
     height: auto;
     margin-bottom: 0;
     padding: 15px;
     padding-bottom: 15px;
 
-    .growlersPro{
+    .growlersPro {
         height: 130px;
         padding-top: 20px;
         padding-bottom: 20px;
 
-        h2{
+        h2 {
             color: #e95b2b;
             text-align: center;
             font-size: 45px;
@@ -516,7 +516,7 @@
             font-family: 'Bebas Neue', cursive;
         }
 
-        p{
+        p {
             color: white;
             text-align: center;
             font-size: 23px;
@@ -524,7 +524,7 @@
         }
     }
 
-    .imggrowlersPro{
+    .imggrowlersPro {
         background-image: url(./images/growlerproductos.png);
         background-position: center;
         background-size: cover;
@@ -537,20 +537,20 @@
 
 // seccion3 Productos //
 
-.containterchoperasPro{
+.containterchoperasPro {
     height: auto;
     margin-bottom: 0;
     padding: 15px;
     padding-bottom: 15px;
 }
 
-.choperasPro{
+.choperasPro {
     height: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.choperasPro h2{
+.choperasPro h2 {
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
@@ -558,14 +558,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.choperasPro p{
+.choperasPro p {
     color: white;
     text-align: center;
     font-size: 23px;
     font-family: 'Oswald', sans-serif;
 }
 
-.imgchoperasPro{
+.imgchoperasPro {
     background-image: url(./images/choperasproductos.png);
     background-position: center;
     background-size: cover;
@@ -577,20 +577,20 @@
 
 // seccion4 Productos //
 
-.containerbarrilesPro{
+.containerbarrilesPro {
     height: auto;
     margin-bottom: 0;
     padding: 15px;
     padding-bottom: 15px;
 }
 
-.barrilesPro{
+.barrilesPro {
     height: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.barrilesPro h2{
+.barrilesPro h2 {
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
@@ -598,14 +598,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-.barrilesPro p{
+.barrilesPro p {
     color: white;
     text-align: center;
     font-size: 23px;
     font-family: 'Oswald', sans-serif;
 }
 
-.imgbarrilesPro{
+.imgbarrilesPro {
     background-image: url(./images/barrilesproductos.png);
     background-position: center;
     background-size: cover;
@@ -619,9 +619,427 @@
 
 // ---------------------------------------------- inicio de pagina ESTILOS ------------------------------------------------ //
 
+// portada Estilos //
 
+.portadaestilos {
+    background-image: url(./images/portadaestilos.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
 
+    h1 {
+        color: white;
+        text-shadow: 0 0 15px black;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+}
 
+// cierre portada Estilos //
 
+// estilo Golden //
+
+.containergolden {
+    background-image: linear-gradient(to right,
+            #660434,
+            #862837,
+            #a14a3b,
+            #b66d42,
+            #c5924f,
+            #c3954f,
+            #c0974f,
+            #be9a50,
+            #ad7b3d,
+            #995d2e,
+            #834022,
+            #6c2418);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+
+    .goldenleft {
+        background-image: url(./images/latassinfondo/latagolden.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: all 0.9s;
+        }
+    }
+
+    .goldencenter {
+        background-image: url(./images/estilosdecervezalogos/golden.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .goldenright {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            color: white;
+            font-family: "Oswald", sans-serif;
+            text-shadow: 0 0 15px black;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+}
+
+// estilo Golden //
+
+// estilo Ipa //
+.containeripa {
+    background-image: linear-gradient(to right,
+            #b71d37,
+            #be4b3e,
+            #c26c4c,
+            #c68963,
+            #caa380,
+            #bda083,
+            #b19c86,
+            #a59889,
+            #85796e,
+            #665b54,
+            #48403b,
+            #2b2624);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+
+    .ipaleft {
+        h3 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-shadow: 0 0 15px black;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        display: flex;
+        align-items: center;
+    }
+
+    .ipacenter {
+        background-image: url(./images/estilosdecervezalogos/ipa.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .iparight {
+        background-image: url(./images/latassinfondo/lataipa.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: all 0.9s;
+        }
+    }
+}
+
+// estilo Ipa //
+
+// estilo Porter //
+
+.containerporter {
+    background-image: linear-gradient(to right,
+            #610d1b,
+            #5e112d,
+            #561a3c,
+            #4a2347,
+            #3c2a4e,
+            #402d51,
+            #443154,
+            #483457,
+            #5e3558,
+            #733653,
+            #843a4b,
+            #90413f);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+
+    .porterleft {
+        background-image: url(./images/latassinfondo/lataporter.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: all 0.9s;
+        }
+    }
+
+    .portercenter {
+        background-image: url(./images/estilosdecervezalogos/porter.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .porterright {
+        h3 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-shadow: 0 0 15px black;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+}
+
+// estilo Porter //
+
+// estilo Dulce //
+
+.containerdulce {
+    background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+
+    .dulceleft {
+        h3 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-shadow: 0 0 15px black;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        display: flex;
+        align-items: center;
+    }
+
+    .dulcecenter {
+        background-image: url(./images/estilosdecervezalogos/dulce.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .dulceright {
+        background-image: url(./images/latassinfondo/latadulce.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        border-radius: 5px;
+    }
+}
+
+// estilo Dulce //
+
+// estilo Kolsch //
+
+.containerkolsch {
+    background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.kolschleft {
+    background-image: url(./images/latassinfondo/latakolsch.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.kolschcenter {
+    background-image: url(./images/estilosdecervezalogos/kolsch.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.kolschright h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.kolschright {
+    display: flex;
+    align-items: center;
+}
+
+// estilo Kolsch //
+
+// estilo Scotish //
+
+.containerscotish {
+    background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.scotishleft h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.scotishleft {
+    display: flex;
+    align-items: center;
+}
+
+.scotishcenter {
+    background-image: url(./images/estilosdecervezalogos/scotish.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.scotishright {
+    background-image: url(./images/latassinfondo/latascotish.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+// estilo Scotish //
+
+// estilo LaRegalona //
+
+.containerlaregalona {
+    background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.laregalonaleft {
+    background-image: url(./images/latassinfondo/latalaregalona.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.laregalonacenter {
+    background-image: url(./images/estilosdecervezalogos/laregalona.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.laregalonaright h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.laregalonaright {
+    display: flex;
+    align-items: center;
+}
+
+// estilo LaRegalona //
+
+// estilo Intensidad //
+.containerintensidad {
+    background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+
+.intensidadleft {
+        h3 {
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            text-shadow: 0 0 15px black;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        display: flex;
+        align-items: center;
+    }
+
+.intensidadcenter {
+        background-image: url(./images/estilosdecervezalogos/intensidad.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+.intensidadright {
+        background-image: url(./images/latassinfondo/lataintensidad.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        border-radius: 5px;
+    }
+}
+
+// estilo Intensidad //    
+
+// estilo Divino //
+
+.containerdivino{
+    background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.divinoleft{
+    background-image: url(./images/latassinfondo/latadivino.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.divinocenter{
+    background-image: url(./images/estilosdecervezalogos/divino.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.divinoright h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.divinoright{
+    display: flex;
+    align-items: center;
+}
+
+//estilo Divino //
+
+// ------------------------------------------------- cierre de pagina ESTILOS --------------------------------------- //
+
+// ------------------------------------------------- inicio de pagina CHOPERAS -------------------------------------- //
 
 
