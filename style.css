@@ -1,45 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&family=Oswald&display=swap");
+/* font-family: 'Oswald', sans-serif; */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
-    background-color: black;
-    height: auto !important;
+  background-color: black;
+  height: auto !important;
 }
-
 .navbar a {
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: "Bebas Neue", cursive;
-    padding-top: 10px;
-    transition: color 0.3s linear 0.2s;
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
+  transition: color 0.3s linear 0.2s;
 }
-
 .navbar a:hover {
-    color: #e95b2b !important;
+  color: #e95b2b !important;
 }
 
 .jumbotronportada {
-    background-image: url(./images/imgdescargadas/index1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 650px;
-    margin-bottom: 0;
-    border-radius: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  background-image: url(./img/index/portadaindex.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.jumbotronportada h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  padding-right: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
 }
 
-.jumbotronportada h1 {
-    color: white;
-    text-shadow: 0 0 15px black;
-    padding-right: 15px;
-    font-family: "Bebas Neue", cursive;
-    font-size: 60px;
+.mainindex {
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  height: auto;
+}
+
+.prologo {
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.prologo h2 {
+  color: white;
+  margin-top: 0;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+.prologo strong {
+  color: #e95b2b;
+}
+
+.container-fluid {
+  height: auto;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+.container-fluid h2 {
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-size: 40px;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+.container-fluid .btnindex {
+  background-color: #e95b2b;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: white;
+  padding: 8px 10px 8px 10px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+.container-fluid .btnindex:hover {
+  transform: scale(1.08);
+  transition: all 0.9s;
+}
+.container-fluid .Nleft {
+  text-align: center;
+}
+.container-fluid .imgnosotrosinicio {
+  background-image: url(./images/nosotros5.JPG);
+  background-position: bottom;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.container-fluid .imgnosotrosinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
+.container-fluid .Ncenter {
+  text-align: center;
+}
+.container-fluid .imgestilosinicio {
+  background-image: url(./images/imgestilosindex.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.container-fluid .imgestilosinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
+.container-fluid .Nright {
+  text-align: center;
+}
+.container-fluid .imgvendelaceluinicio {
+  background-image: url(./images/vendelacelu.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.container-fluid .imgvendelaceluinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
+
+.containervideo {
+  height: auto;
+  width: auto;
+  padding: 15px;
+  padding-bottom: 15px;
+}
+.containervideo .videoindex {
+  height: auto;
+  width: 100%;
+}
+
+.footer {
+  height: auto;
+  background-color: black;
+  padding: 2px;
+}
+
+.Fcenter {
+  background-color: black;
+  text-align: center;
+}
+
+.Fcenter img {
+  margin-top: 35px;
+}
+
+.Fright {
+  background-color: black;
+  text-align: center;
+}
+
+.footer h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 1px white;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 28px;
+}
+
+.footer p {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.piedepagina {
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+}
+
+.piedepagina h3 {
+  color: white;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

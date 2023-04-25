@@ -1,3 +1,14 @@
+// fuentes de letras //
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+// fuentes de letras //
+
+
 // selector universal //
 
 * {
@@ -26,11 +37,12 @@
         }
     }
 }
+
 // barra de navegacion //
 
 // portada index //
 .jumbotronportada {
-    background-image: url(./images/imgdescargadas/index1.jpg);
+    background-image: url(./img/index/portadaindex.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -48,4 +60,194 @@
         font-size: 60px;
     }
 }
+
 // portada index //
+
+.mainindex {
+    background: rgb(35, 31, 32);
+    background: linear-gradient(180deg,
+            rgba(35, 31, 32, 1) 0%,
+            rgba(233, 91, 43, 1) 50%,
+            rgba(35, 31, 32, 1) 100%);
+    height: auto;
+}
+
+// portada index //
+
+// prologo index //
+
+.prologo {
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    h2 {
+        color: white;
+        margin-top: 0;
+        padding-top: 60px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    strong {
+        color: #e95b2b;
+    }
+}
+
+// prologo index //
+
+// segunda seccion index //
+
+.container-fluid {
+    height: auto;
+    padding: 15px;
+    padding-bottom: 15px;
+
+    h2 {
+        color: white;
+        text-shadow: 0 0 10px black;
+        font-size: 40px;
+        padding: 10px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .btnindex {
+        background-color: #e95b2b;
+        border-radius: 5px;
+        border: solid 1px white;
+        color: white;
+        padding: 8px 10px 8px 10px;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+
+        &:hover {
+            transform: scale(1.08);
+            transition: all 0.9s;
+        }
+    }
+
+    .Nleft {
+        text-align: center;
+    }
+
+    .imgnosotrosinicio {
+        background-image: url(./images/nosotros5.JPG);
+        background-position: bottom;
+        background-size: cover;
+        height: 650px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.03);
+            transition: all 0.9s;
+        }
+    }
+
+    .Ncenter {
+        text-align: center;
+    }
+
+    .imgestilosinicio {
+        background-image: url(./images/imgestilosindex.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.03);
+            transition: all 0.9s;
+        }
+    }
+
+    .Nright {
+        text-align: center;
+    }
+
+    .imgvendelaceluinicio {
+        background-image: url(./images/vendelacelu.png);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.03);
+            transition: all 0.9s;
+        }
+    }
+}
+
+// segunda seccion index //
+
+// video index //
+
+.containervideo {
+    height: auto;
+    width: auto;
+    padding: 15px;
+    padding-bottom: 15px;
+
+    .videoindex {
+        height: auto;
+        width: 100%;
+    }
+}
+
+// video index //
+
+// footer index //
+
+.footer{
+    height: auto;
+    background-color: black;
+    padding: 2px;
+}
+
+.Fcenter{
+    background-color: black;
+    text-align: center;
+}
+
+.Fcenter img{
+    margin-top: 35px;
+}
+
+.Fright{
+    background-color: black;
+    text-align: center;
+}
+
+.footer h2{
+    color: #e95b2b;
+    text-shadow: 0 0 1px white;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 28px;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.piedepagina{
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+}
+
+.piedepagina h3{
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// footer index //
