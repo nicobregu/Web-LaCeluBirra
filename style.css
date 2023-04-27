@@ -48,6 +48,7 @@
   background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
   height: auto;
   margin: 0;
+  padding: 0;
 }
 
 .prologo {
@@ -133,7 +134,7 @@
 }
 .container-fluid .imgvendelaceluinicio {
   background-image: url(./img/index/vendelaceluindex.jpg);
-  background-position: center;
+  background-position: right;
   background-size: cover;
   height: 650px;
   margin-bottom: 5px;
