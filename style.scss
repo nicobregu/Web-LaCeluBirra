@@ -1048,7 +1048,7 @@
 // seccion1 Choperas //
 
 .seccion1choperas {
-    height: 100px;
+    height: auto;
 
     h2 {
         color: #e95b2b;
@@ -1074,33 +1074,35 @@
 
 // seccion2 Choperas //
 
-.seccion2choperas {
+.seccion2choperas{
     height: 100px;
-
-    h2 {
-        color: #e95b2b;
-        text-shadow: 0 0 10px black;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 25px;
-        font-family: 'Bebas Neue', cursive;
+    
+    h2{
+    color: #e95b2b;
+    text-shadow: 0 0 10px black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
     }
-
-    .imgseccion2choperas {
-        background-image: url(./images/imgseccion2choperas.png);
-        background-size: cover;
-        background-position: center;
-        height: 500px;
-        margin-top: 15px;
     }
-}
+    
+    .imgseccion2choperas{
+    background-image: url(./img/choperas/choperas2.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
 
 // seccion2 Choperas //
 
 // seccion3 Choperas //
 
 .seccion3choperas {
-    height: 100px;
+    height: auto;
 }
 
 .seccion3choperas h2 {

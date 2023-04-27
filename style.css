@@ -865,7 +865,7 @@
 }
 
 .seccion1choperas {
-  height: 100px;
+  height: auto;
 }
 .seccion1choperas h2 {
   color: #e95b2b;
@@ -897,16 +897,19 @@
   padding-top: 25px;
   font-family: "Bebas Neue", cursive;
 }
-.seccion2choperas .imgseccion2choperas {
-  background-image: url(./images/imgseccion2choperas.png);
+
+.imgseccion2choperas {
+  background-image: url(./img/choperas/choperas2.png);
   background-size: cover;
   background-position: center;
   height: 500px;
   margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .seccion3choperas {
-  height: 100px;
+  height: auto;
 }
 
 .seccion3choperas h2 {
