@@ -67,6 +67,7 @@
     background: rgb(35, 31, 32);
     background: linear-gradient(180deg, rgba(35, 31, 32, 1) 0%, rgba(233, 91, 43, 1) 50%, rgba(35, 31, 32, 1) 100%);
     height: auto;
+    margin: 0;
 }
 
 // portada index //
@@ -658,144 +659,120 @@
 
 // estilo Golden //
 
+/* inicio seccion1 estilo Golden */
+
 .containergolden {
-    background-image: linear-gradient(to right,
-            #660434,
-            #862837,
-            #a14a3b,
-            #b66d42,
-            #c5924f,
-            #c3954f,
-            #c0974f,
-            #be9a50,
-            #ad7b3d,
-            #995d2e,
-            #834022,
-            #6c2418);
+    background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
-
+    }
+    
     .goldenleft {
-        background-image: url(./img/estilos/latagolden.png);
-        background-position: center;
-        background-size: cover;
-        height: 500px;
-        border-radius: 5px;
+    background-image: url(./img/estilos/latagolden.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
     }
-
-    // .goldencenter {
-    //     background-image: url(./img/estilos/goldenlogo.png);
-    //     background-position: center;
-    //     background-size: auto;
-    //     background-repeat: no-repeat;
-    //     height: 100px;
-    // }
-
+    
+    .goldencenter {
+    background-image: url(./img/estilos/goldenlogo.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    }
+    
     .goldenright {
-        height: auto;
-        // display: flex;
-        // align-items: center;
-
-        h3 {
-            color: white;
-            font-family: "Oswald", sans-serif;
-            text-shadow: 0 0 15px black;
-            // text-align: center;
-            font-size: 22px;
-        }
+    display: flex;
+    align-items: center;
     }
-}
+    
+    .goldenright h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 25px;
+    }
 
 // estilo Golden //
 
 // estilo Ipa //
+
 .containeripa {
-    background-image: linear-gradient(to right,
-            #b71d37,
-            #be4b3e,
-            #c26c4c,
-            #c68963,
-            #caa380,
-            #bda083,
-            #b19c86,
-            #a59889,
-            #85796e,
-            #665b54,
-            #48403b,
-            #2b2624);
+    background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
-
+    }
+    
+    .ipaleft h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 25px;
+    }
+    
     .ipaleft {
-        h3 {
-            color: white;
-            font-family: 'Oswald', sans-serif;
-            text-shadow: 0 0 15px black;
-            text-align: center;
-            font-size: 22px;
-        }
-
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
     }
-
+    
     .ipacenter {
-        background-image: url(./img/estilos/ipalogo.png);
-        background-position: center;
-        background-size: auto;
-        background-repeat: no-repeat;
-        height: 250px;
+    background-image: url(./img/estilos/ipalogo.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     }
-
+    
     .iparight {
-        background-image: url(./img/estilos/lataipa.png);
-        background-position: center;
-        background-size: cover;
-        height: 650px;
-        border-radius: 5px;
+    background-image: url(./img/estilos/lataipa.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
     }
-}
 
 // estilo Ipa //
 
 // estilo Porter //
 
 .containerporter {
-    background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457,  #5e3558, #733653,  #843a4b, #90413f);
+    background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
-
+    }
+    
     .porterleft {
-        background-image: url(./img/estilos/lataporter.png);
-        background-position: center;
-        background-size: cover;
-        height: 650px;
-        border-radius: 5px;
+    background-image: url(./img/estilos/lataporter.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
     }
-
+    
     .portercenter {
-        background-image: url(./img/estilos/porterlogo.png);
-        background-position: center;
-        background-size: auto;
-        background-repeat: no-repeat;
+    background-image: url(./img/estilos/porterlogo.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     }
-
+    
+    .porterright h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    font-size: 25px;
+    }
+    
     .porterright {
-        h3 {
-            color: white;
-            font-family: 'Oswald', sans-serif;
-            text-shadow: 0 0 15px black;
-            text-align: center;
-            font-size: 22px;
-        }
-
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
     }
-}
 
 // estilo Porter //
 
@@ -813,11 +790,10 @@
             font-family: 'Oswald', sans-serif;
             text-shadow: 0 0 15px black;
             text-align: center;
-            font-size: 22px;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
         }
-
-        display: flex;
-        align-items: center;
     }
 
     .dulcecenter {
@@ -867,7 +843,7 @@
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .kolschright {
@@ -891,7 +867,7 @@
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .scotishleft {
@@ -945,7 +921,7 @@
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .laregalonaright {
@@ -969,7 +945,7 @@
             font-family: 'Oswald', sans-serif;
             text-shadow: 0 0 15px black;
             text-align: center;
-            font-size: 22px;
+            font-size: 25px;
         }
 
         display: flex;
@@ -1022,7 +998,7 @@
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .divinoright {
@@ -1054,7 +1030,7 @@
         text-shadow: 0 0 15px black;
         margin-bottom: 15px;
         font-family: 'Bebas Neue', cursive;
-        font-size: 60px;
+        font-size: 40px;
     }
 }
 
@@ -1067,6 +1043,7 @@
             rgba(35, 31, 32, 1) 0%,
             rgba(233, 91, 43, 1) 50%,
             rgba(35, 31, 32, 1) 100%);
+    padding-bottom: 15px;
 }
 
 // seccion1 Choperas //
@@ -1077,9 +1054,9 @@
     h2 {
         color: #e95b2b;
         text-shadow: 0 0 10px black;
-        font: 60px;
+        font-size: 30px;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 25px;
         font-family: "Bebas Neue", cursive;
     }
 }
@@ -1090,6 +1067,8 @@
     background-position: center;
     height: 500px;
     margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 // seccion1 Choperas //
@@ -1102,9 +1081,9 @@
     h2 {
         color: #e95b2b;
         text-shadow: 0 0 10px black;
-        font: 60px;
+        font-size: 30px;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 25px;
         font-family: 'Bebas Neue', cursive;
     }
 
@@ -1128,9 +1107,9 @@
 .seccion3choperas h2 {
     color: #e95b2b;
     text-shadow: 0 0 10px black;
-    font: 60px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -1140,6 +1119,8 @@
     background-position: center;
     height: 500px;
     margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 // seccion3 Choperas //
@@ -1153,7 +1134,7 @@
     text-shadow: 0 0 15px black;
     padding-bottom: 20px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .formulario {
@@ -1162,7 +1143,7 @@
     background-size: cover;
     height: 650px;
     padding-left: 15px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
     color: white;
     text-shadow: 0 0 2px black;
@@ -1175,7 +1156,7 @@
     .telefono,
     .motivoconsulta,
     .mensaje {
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 30px;
         font-family: 'Oswald', sans-serif;
     }

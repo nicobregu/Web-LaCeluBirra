@@ -47,6 +47,7 @@
   background: rgb(35, 31, 32);
   background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
   height: auto;
+  margin: 0;
 }
 
 .prologo {
@@ -534,27 +535,40 @@
   font-size: 40px;
 }
 
+/* inicio seccion1 estilo Golden */
 .containergolden {
   background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
   padding: 25px;
   padding-bottom: 25px;
   height: auto;
 }
-.containergolden .goldenleft {
+
+.goldenleft {
   background-image: url(./img/estilos/latagolden.png);
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 650px;
   border-radius: 5px;
 }
-.containergolden .goldenright {
-  height: auto;
+
+.goldencenter {
+  background-image: url(./img/estilos/goldenlogo.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
-.containergolden .goldenright h3 {
+
+.goldenright {
+  display: flex;
+  align-items: center;
+}
+
+.goldenright h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
-  font-size: 22px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .containeripa {
@@ -563,25 +577,28 @@
   padding-bottom: 25px;
   height: auto;
 }
-.containeripa .ipaleft {
-  display: flex;
-  align-items: center;
-}
-.containeripa .ipaleft h3 {
+
+.ipaleft h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
-.containeripa .ipacenter {
+
+.ipaleft {
+  display: flex;
+  align-items: center;
+}
+
+.ipacenter {
   background-image: url(./img/estilos/ipalogo.png);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-  height: 250px;
 }
-.containeripa .iparight {
+
+.iparight {
   background-image: url(./img/estilos/lataipa.png);
   background-position: center;
   background-size: cover;
@@ -595,29 +612,33 @@
   padding-bottom: 25px;
   height: auto;
 }
-.containerporter .porterleft {
+
+.porterleft {
   background-image: url(./img/estilos/lataporter.png);
   background-position: center;
   background-size: cover;
   height: 650px;
   border-radius: 5px;
 }
-.containerporter .portercenter {
+
+.portercenter {
   background-image: url(./img/estilos/porterlogo.png);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
 }
-.containerporter .porterright {
-  display: flex;
-  align-items: center;
-}
-.containerporter .porterright h3 {
+
+.porterright h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
+}
+
+.porterright {
+  display: flex;
+  align-items: center;
 }
 
 .containerdulce {
@@ -626,16 +647,14 @@
   padding-bottom: 25px;
   height: auto;
 }
-.containerdulce .dulceleft {
-  display: flex;
-  align-items: center;
-}
 .containerdulce .dulceleft h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
 }
 .containerdulce .dulcecenter {
   background-image: url(./img/estilos/dulcelogo.png);
@@ -678,7 +697,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .kolschright {
@@ -698,7 +717,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .scotishleft {
@@ -748,7 +767,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .laregalonaright {
@@ -771,7 +790,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 .containerintensidad .intensidadcenter {
   background-image: url(./img/estilos/intensidadlogo.png);
@@ -813,7 +832,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .divinoright {
@@ -837,13 +856,14 @@
   text-shadow: 0 0 15px black;
   margin-bottom: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .mainchoperas {
   height: auto;
   background: rgb(35, 31, 32);
   background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  padding-bottom: 15px;
 }
 
 .seccion1choperas {
@@ -852,9 +872,9 @@
 .seccion1choperas h2 {
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font: 60px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -864,6 +884,8 @@
   background-position: center;
   height: 500px;
   margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .seccion2choperas {
@@ -872,9 +894,9 @@
 .seccion2choperas h2 {
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font: 60px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
   font-family: "Bebas Neue", cursive;
 }
 .seccion2choperas .imgseccion2choperas {
@@ -892,9 +914,9 @@
 .seccion3choperas h2 {
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font: 60px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -904,6 +926,8 @@
   background-position: center;
   height: 500px;
   margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .txtcontacto {
@@ -911,7 +935,7 @@
   text-shadow: 0 0 15px black;
   padding-bottom: 20px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .formulario {
@@ -920,7 +944,7 @@
   background-size: cover;
   height: 650px;
   padding-left: 15px;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
   color: white;
   text-shadow: 0 0 2px black;
@@ -933,7 +957,7 @@
 .formulario .telefono,
 .formulario .motivoconsulta,
 .formulario .mensaje {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 30px;
   font-family: "Oswald", sans-serif;
 }
