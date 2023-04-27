@@ -13,7 +13,7 @@
   height: auto !important;
 }
 .navbar a {
-  font-size: 26px;
+  font-size: 22px;
   color: white;
   text-decoration: none;
   font-family: "Bebas Neue", cursive;
@@ -40,7 +40,7 @@
   text-shadow: 0 0 15px black;
   padding-right: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .mainindex {
@@ -53,13 +53,15 @@
   height: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .prologo h2 {
   color: white;
   margin-top: 0;
   padding-top: 60px;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
   padding-top: 15px;
 }
@@ -85,7 +87,7 @@
   border: solid 1px white;
   color: white;
   padding: 8px 10px 8px 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Oswald", sans-serif;
 }
 .container-fluid .btnindex:hover {
@@ -94,6 +96,7 @@
 }
 .container-fluid .Nleft {
   text-align: center;
+  padding-bottom: 30px;
 }
 .container-fluid .imgnosotrosinicio {
   background-image: url(./img/index/img1.JPG);
@@ -109,6 +112,7 @@
 }
 .container-fluid .Ncenter {
   text-align: center;
+  padding-bottom: 30px;
 }
 .container-fluid .imgestilosinicio {
   background-image: url(./img/index/img2.jpg);
@@ -124,6 +128,7 @@
 }
 .container-fluid .Nright {
   text-align: center;
+  padding-bottom: 30px;
 }
 .container-fluid .imgvendelaceluinicio {
   background-image: url(./img/index/vendelaceluindex.jpg);
@@ -140,9 +145,10 @@
 
 .containervideo {
   height: auto;
-  width: auto;
-  padding: 15px;
-  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
 .containervideo .videoindex {
   height: auto;
@@ -177,7 +183,7 @@
   color: #e95b2b;
   text-shadow: 0 0 1px white;
   font-family: "Bebas Neue", cursive;
-  margin-top: 28px;
+  margin-top: 30px;
 }
 
 .footer p {
@@ -194,7 +200,7 @@
 
 .piedepagina h3 {
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Oswald", sans-serif;
   display: flex;
   align-items: center;
@@ -215,21 +221,20 @@
   margin-bottom: 15px;
   margin-left: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .mainnosotros {
   background: rgb(35, 31, 32);
   background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
   height: auto;
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .seccion1Nos {
   height: auto;
-  margin-bottom: 0;
-  padding: 15px;
-  padding-bottom: 15px;
+  padding: 25px;
 }
 
 .articleNos1 {
@@ -237,20 +242,23 @@
   background-position: center;
   background-size: cover;
   border-radius: 5px;
+  height: 450px;
 }
 
 .asideNos1 h2 {
   text-align: center;
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
 }
 
 .asideNos1 h3 {
   color: white;
   font-family: "Oswald", sans-serif;
-  font-size: 38px;
+  font-size: 22px;
+  text-align: center;
 }
 
 .seccion2Nos {
@@ -263,7 +271,7 @@
   text-align: center;
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -271,14 +279,15 @@
   color: white;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 38px;
+  font-size: 22px;
+  padding-bottom: 5px;
 }
 
 .aside2Nos {
   background-image: url(./img/nosotros/apasionadosnosotros.png);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 450px;
   border-radius: 5px;
 }
 
@@ -292,7 +301,7 @@
   background-image: url(./img/nosotros/artesanosnosotros.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 450px;
   border-radius: 5px;
 }
 
@@ -300,15 +309,16 @@
   text-align: center;
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
 }
 
 .aside3Nos h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 38px;
+  font-size: 22px;
 }
 
 .seccion4Nos {
@@ -321,7 +331,7 @@
   text-align: center;
   color: #e95b2b;
   text-shadow: 0 0 10px black;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -329,7 +339,8 @@
   color: white;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 38px;
+  font-size: 22px;
+  padding-bottom: 5px;
 }
 
 .aside4Nos {
@@ -348,15 +359,15 @@
   margin-bottom: 0;
   border-radius: 0;
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: center;
 }
 .portadaproductos h1 {
   color: white;
   text-shadow: 0 0 15px black;
-  margin-left: 100px;
+  margin-right: 80px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .mainproductos {
@@ -374,22 +385,23 @@
 
 .latasPro {
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .latasPro h2 {
   color: #e95b2b;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 0 0 10px black;
   font-family: "Bebas Neue", cursive;
-  padding-top: 8px;
+  padding-top: 5px;
 }
 .latasPro p {
   color: white;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 5px;
 }
 
 .imglatasPro {
@@ -397,7 +409,7 @@
   background-position: center;
   background-size: cover;
   height: 700px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .containergrowlersPro {
@@ -408,20 +420,20 @@
 }
 .containergrowlersPro .growlersPro {
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .containergrowlersPro .growlersPro h2 {
   color: #e95b2b;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 0 0 10px black;
   font-family: "Bebas Neue", cursive;
 }
 .containergrowlersPro .growlersPro p {
   color: white;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
 }
 .containergrowlersPro .imggrowlersPro {
@@ -429,7 +441,7 @@
   background-position: center;
   background-size: cover;
   height: 700px;
-  margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 .containterchoperasPro {
@@ -441,14 +453,14 @@
 
 .choperasPro {
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .choperasPro h2 {
   color: #e95b2b;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 0 0 10px black;
   font-family: "Bebas Neue", cursive;
 }
@@ -456,7 +468,7 @@
 .choperasPro p {
   color: white;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -465,7 +477,7 @@
   background-position: center;
   background-size: cover;
   height: 700px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .containerbarrilesPro {
@@ -477,14 +489,14 @@
 
 .barrilesPro {
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .barrilesPro h2 {
   color: #e95b2b;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 0 0 10px black;
   font-family: "Bebas Neue", cursive;
 }
@@ -492,7 +504,7 @@
 .barrilesPro p {
   color: white;
   text-align: center;
-  font-size: 32px;
+  font-size: 22px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -501,7 +513,7 @@
   background-position: top;
   background-size: cover;
   height: 700px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .portadaestilos {
@@ -519,7 +531,7 @@
   text-shadow: 0 0 15px black;
   padding-top: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .containergolden {
@@ -532,25 +544,17 @@
   background-image: url(./img/estilos/latagolden.png);
   background-position: center;
   background-size: cover;
-  height: 650px;
+  height: 500px;
   border-radius: 5px;
 }
-.containergolden .goldencenter {
-  background-image: url(./img/estilos/goldenlogo.png);
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
 .containergolden .goldenright {
-  display: flex;
-  align-items: center;
+  height: auto;
 }
 .containergolden .goldenright h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
-  text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .containeripa {
@@ -568,13 +572,14 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 .containeripa .ipacenter {
   background-image: url(./img/estilos/ipalogo.png);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  height: 250px;
 }
 .containeripa .iparight {
   background-image: url(./img/estilos/lataipa.png);
@@ -612,7 +617,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .containerdulce {
@@ -630,7 +635,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 .containerdulce .dulcecenter {
   background-image: url(./img/estilos/dulcelogo.png);
@@ -673,7 +678,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .kolschright {
@@ -693,7 +698,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .scotishleft {
@@ -743,7 +748,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .laregalonaright {
@@ -766,7 +771,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 .containerintensidad .intensidadcenter {
   background-image: url(./img/estilos/intensidadlogo.png);
@@ -808,7 +813,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .divinoright {
