@@ -25,7 +25,7 @@
 }
 
 .jumbotronportada {
-  background-image: url(./img/index/portadaindex.jpg);
+  background-image: url(./img/index/portadaindex.JPG);
   background-size: cover;
   background-position: center;
   height: 650px;
@@ -61,6 +61,7 @@
   text-align: center;
   font-size: 40px;
   font-family: "Oswald", sans-serif;
+  padding-top: 15px;
 }
 .prologo strong {
   color: #e95b2b;
@@ -249,6 +250,7 @@
 .asideNos1 h3 {
   color: white;
   font-family: "Oswald", sans-serif;
+  font-size: 38px;
 }
 
 .seccion2Nos {
@@ -334,12 +336,12 @@
   background-image: url(./img/nosotros/cervecerosnosotros.jpg);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 450px;
   border-radius: 5px;
 }
 
 .portadaproductos {
-  background-image: url(./img/productos/portadaproductos.jpg);
+  background-image: url(./img/productos/portadaproductos.JPG);
   background-position: top;
   background-size: cover;
   height: 650px;
@@ -369,12 +371,13 @@
   padding: 15px;
   padding-bottom: 15px;
 }
-.containerlatasPro .latasPro {
-  height: 130px;
+
+.latasPro {
+  height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.containerlatasPro .latasPro h2 {
+.latasPro h2 {
   color: #e95b2b;
   text-align: center;
   font-size: 45px;
@@ -382,13 +385,14 @@
   font-family: "Bebas Neue", cursive;
   padding-top: 8px;
 }
-.containerlatasPro .latasPro p {
+.latasPro p {
   color: white;
   text-align: center;
-  font-size: 23px;
+  font-size: 32px;
   font-family: "Oswald", sans-serif;
 }
-.containerlatasPro .latasPro .imglatasPro {
+
+.imglatasPro {
   background-image: url(./img/productos/latasproductos.png);
   background-position: center;
   background-size: cover;
@@ -403,7 +407,7 @@
   padding-bottom: 15px;
 }
 .containergrowlersPro .growlersPro {
-  height: 130px;
+  height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -417,7 +421,7 @@
 .containergrowlersPro .growlersPro p {
   color: white;
   text-align: center;
-  font-size: 23px;
+  font-size: 32px;
   font-family: "Oswald", sans-serif;
 }
 .containergrowlersPro .imggrowlersPro {
@@ -425,7 +429,7 @@
   background-position: center;
   background-size: cover;
   height: 700px;
-  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .containterchoperasPro {
@@ -436,7 +440,7 @@
 }
 
 .choperasPro {
-  height: 130px;
+  height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -452,7 +456,7 @@
 .choperasPro p {
   color: white;
   text-align: center;
-  font-size: 23px;
+  font-size: 32px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -472,7 +476,7 @@
 }
 
 .barrilesPro {
-  height: 130px;
+  height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -488,7 +492,7 @@
 .barrilesPro p {
   color: white;
   text-align: center;
-  font-size: 23px;
+  font-size: 32px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -530,10 +534,6 @@
   background-size: cover;
   height: 650px;
   border-radius: 5px;
-}
-.containergolden .goldenleft:hover {
-  transform: scale(1.05);
-  transition: all 0.9s;
 }
 .containergolden .goldencenter {
   background-image: url(./img/estilos/goldenlogo.png);
@@ -583,10 +583,6 @@
   height: 650px;
   border-radius: 5px;
 }
-.containeripa .iparight:hover {
-  transform: scale(1.05);
-  transition: all 0.9s;
-}
 
 .containerporter {
   background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
@@ -601,15 +597,15 @@
   height: 650px;
   border-radius: 5px;
 }
-.containerporter .porterleft:hover {
-  transform: scale(1.05);
-  transition: all 0.9s;
-}
 .containerporter .portercenter {
   background-image: url(./img/estilos/porterlogo.png);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+}
+.containerporter .porterright {
+  display: flex;
+  align-items: center;
 }
 .containerporter .porterright h3 {
   color: white;

@@ -42,7 +42,7 @@
 
 // portada index //
 .jumbotronportada {
-    background-image: url(./img/index/portadaindex.jpg);
+    background-image: url(./img/index/portadaindex.JPG);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -78,6 +78,7 @@
     padding-left: 15px;
     padding-right: 15px;
 
+
     h2 {
         color: white;
         margin-top: 0;
@@ -85,6 +86,7 @@
         text-align: center;
         font-size: 40px;
         font-family: 'Oswald', sans-serif;
+        padding-top: 15px;
     }
 
     strong {
@@ -205,7 +207,7 @@
     padding: 2px;
 }
 
-.Fleft{
+.Fleft {
     padding-left: 30px;
 }
 
@@ -316,6 +318,7 @@
 .asideNos1 h3 {
     color: white;
     font-family: 'Oswald', sans-serif;
+    font-size: 38px;
 }
 
 // seccion1 Nosotros //
@@ -413,7 +416,7 @@
     background-image: url(./img/nosotros/cervecerosnosotros.jpg);
     background-position: top;
     background-size: cover;
-    height: 300px;
+    height: 450px;
     border-radius: 5px;
 }
 
@@ -426,7 +429,7 @@
 // portada productos //
 
 .portadaproductos {
-    background-image: url(./img/productos/portadaproductos.jpg);
+    background-image: url(./img/productos/portadaproductos.JPG);
     background-position: top;
     background-size: cover;
     height: 650px;
@@ -460,36 +463,36 @@
     margin-bottom: 0;
     padding: 15px;
     padding-bottom: 15px;
+}
 
-    .latasPro {
-        height: 130px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+.latasPro {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-        h2 {
-            color: #e95b2b;
-            text-align: center;
-            font-size: 45px;
-            text-shadow: 0 0 10px black;
-            font-family: 'Bebas Neue', cursive;
-            padding-top: 8px;
-        }
-
-        p {
-            color: white;
-            text-align: center;
-            font-size: 23px;
-            font-family: 'Oswald', sans-serif;
-        }
-
-        .imglatasPro {
-            background-image: url(./img/productos/latasproductos.png);
-            background-position: center;
-            background-size: cover;
-            height: 700px;
-            margin-top: 20px;
-        }
+    h2 {
+        color: #e95b2b;
+        text-align: center;
+        font-size: 45px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 8px;
     }
+
+    p {
+        color: white;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+.imglatasPro {
+    background-image: url(./img/productos/latasproductos.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 20px;
 }
 
 // seccion1 Productos //
@@ -503,7 +506,7 @@
     padding-bottom: 15px;
 
     .growlersPro {
-        height: 130px;
+        height: auto;
         padding-top: 20px;
         padding-bottom: 20px;
 
@@ -518,7 +521,7 @@
         p {
             color: white;
             text-align: center;
-            font-size: 23px;
+            font-size: 32px;
             font-family: 'Oswald', sans-serif;
         }
     }
@@ -528,7 +531,7 @@
         background-position: center;
         background-size: cover;
         height: 700px;
-        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }
 
@@ -544,7 +547,7 @@
 }
 
 .choperasPro {
-    height: 130px;
+    height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -560,7 +563,7 @@
 .choperasPro p {
     color: white;
     text-align: center;
-    font-size: 23px;
+    font-size: 32px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -584,7 +587,7 @@
 }
 
 .barrilesPro {
-    height: 130px;
+    height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -600,7 +603,7 @@
 .barrilesPro p {
     color: white;
     text-align: center;
-    font-size: 23px;
+    font-size: 32px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -667,11 +670,6 @@
         background-size: cover;
         height: 650px;
         border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.05);
-            transition: all 0.9s;
-        }
     }
 
     .goldencenter {
@@ -742,11 +740,6 @@
         background-size: cover;
         height: 650px;
         border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.05);
-            transition: all 0.9s;
-        }
     }
 }
 
@@ -755,19 +748,7 @@
 // estilo Porter //
 
 .containerporter {
-    background-image: linear-gradient(to right,
-            #610d1b,
-            #5e112d,
-            #561a3c,
-            #4a2347,
-            #3c2a4e,
-            #402d51,
-            #443154,
-            #483457,
-            #5e3558,
-            #733653,
-            #843a4b,
-            #90413f);
+    background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457,  #5e3558, #733653,  #843a4b, #90413f);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
@@ -778,11 +759,6 @@
         background-size: cover;
         height: 650px;
         border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.05);
-            transition: all 0.9s;
-        }
     }
 
     .portercenter {
@@ -800,6 +776,9 @@
             text-align: center;
             font-size: 40px;
         }
+
+        display: flex;
+        align-items: center;
     }
 }
 
