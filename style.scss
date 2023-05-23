@@ -19,7 +19,35 @@
 
 // selector universal //
 
+// boton de whatsapp //
+
+.btn-wsp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #ffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 60px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    padding-top: 10px;
+
+    &:hover{
+        text-decoration: none;
+        color: #0df053;
+        background: #ffff;
+    }
+}
+
+// boton de whatsapp //
+
 // barra de navegacion // 
+
 .navbar {
     background-color: black;
     height: auto !important;
@@ -687,30 +715,33 @@
 
 .containergolden {
     background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
-    padding: 25px;
-    padding-bottom: 25px;
     width: auto;
+    height: 550px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     }
     
     .goldenleft {
     background-image: url(./img/estilos/latagolden.png);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 550px;
     border-radius: 5px;
     }
     
-    .goldencenter {
-    background-image: url(./img/estilos/goldenlogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 580px;
-    }
+    // .goldencenter {
+    // background-image: url(./img/estilos/goldenlogo.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // height: 200px;
+    // width: 580px;
+    // }
     
     .goldenright {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-top: 5px;
     }
     
     .goldenright h3 {
@@ -718,8 +749,13 @@
     font-family: 'Oswald', sans-serif;
     text-shadow: 0 0 15px black;
     text-align: center;
-    font-size: 28px;
-    margin-left: 25px;
+    font-size: 35px;
+    padding-bottom: 200px;
+    margin-bottom: 5px;
+    }
+
+    .goldenright img{
+        margin-bottom: 25px;
     }
 
 // estilo Golden //
