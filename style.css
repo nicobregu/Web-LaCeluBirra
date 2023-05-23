@@ -65,7 +65,7 @@
   margin-top: 0;
   padding-top: 60px;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
   padding-top: 15px;
 }
@@ -237,7 +237,6 @@
 }
 
 .seccion1Nos {
-  height: auto;
   padding: 25px;
 }
 
@@ -273,7 +272,6 @@
 }
 
 .seccion2Nos {
-  height: auto;
   padding: 25px;
   padding-bottom: 25px;
 }
@@ -310,7 +308,6 @@
 }
 
 .seccion3Nos {
-  height: auto;
   padding: 25px;
   padding-bottom: 25px;
 }
@@ -347,7 +344,6 @@
 }
 
 .seccion4Nos {
-  height: auto;
   padding: 25px;
   padding-bottom: 25px;
 }
@@ -403,20 +399,20 @@
 }
 
 .mainproductos {
-  height: auto;
   background: rgb(35, 31, 32);
   background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
 }
 
 .containerlatasPro {
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .latasPro {
-  height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -431,7 +427,7 @@
 .latasPro p {
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
   margin-bottom: 5px;
 }
@@ -440,18 +436,17 @@
   background-image: url(./img/productos/latasproductos.png);
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 350px;
+  width: auto;
   margin-top: 5px;
 }
 
 .containergrowlersPro {
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   padding-bottom: 15px;
 }
 .containergrowlersPro .growlersPro {
-  height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -465,26 +460,25 @@
 .containergrowlersPro .growlersPro p {
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
 }
 .containergrowlersPro .imggrowlersPro {
   background-image: url(./img/productos/growlerproductos.png);
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 350px;
+  width: auto;
   margin-top: 5px;
 }
 
 .containterchoperasPro {
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   padding-bottom: 15px;
 }
 
 .choperasPro {
-  height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -500,7 +494,7 @@
 .choperasPro p {
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -508,19 +502,18 @@
   background-image: url(./img/productos/choperasproductos.png);
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 350px;
+  width: auto;
   margin-top: 5px;
 }
 
 .containerbarrilesPro {
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   padding-bottom: 15px;
 }
 
 .barrilesPro {
-  height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -536,7 +529,7 @@
 .barrilesPro p {
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -544,7 +537,8 @@
   background-image: url(./img/productos/barrilesproductos.jpg);
   background-position: top;
   background-size: cover;
-  height: 700px;
+  height: 350px;
+  width: auto;
   margin-top: 5px;
 }
 
@@ -571,7 +565,7 @@
   background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
+  width: auto;
 }
 
 .goldenleft {
@@ -585,8 +579,9 @@
 .goldencenter {
   background-image: url(./img/estilos/goldenlogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 200px;
+  width: 580px;
 }
 
 .goldenright {
@@ -599,14 +594,15 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
+  margin-left: 25px;
 }
 
 .containeripa {
   background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
+  width: auto;
 }
 
 .ipaleft h3 {
@@ -614,7 +610,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .ipaleft {
@@ -625,8 +621,9 @@
 .ipacenter {
   background-image: url(./img/estilos/ipalogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 280px;
+  width: 580px;
 }
 
 .iparight {
@@ -641,7 +638,7 @@
   background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
+  width: auto;
 }
 
 .porterleft {
@@ -655,8 +652,9 @@
 .portercenter {
   background-image: url(./img/estilos/porterlogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 200px;
+  width: 580px;
 }
 
 .porterright h3 {
@@ -664,7 +662,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .porterright {
@@ -676,22 +674,20 @@
   background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 .containerdulce .dulceleft h3 {
   color: white;
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
+  font-size: 28px;
 }
 .containerdulce .dulcecenter {
   background-image: url(./img/estilos/dulcelogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 200px;
+  width: 580px;
 }
 .containerdulce .dulceright {
   background-image: url(./img/estilos/latadulce.png);
@@ -705,7 +701,6 @@
   background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 
 .kolschleft {
@@ -719,8 +714,9 @@
 .kolschcenter {
   background-image: url(./img/estilos/kolschlogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 200px;
+  width: 580px;
 }
 
 .kolschright h3 {
@@ -728,7 +724,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .kolschright {
@@ -740,7 +736,6 @@
   background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 
 .scotishleft h3 {
@@ -748,7 +743,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .scotishleft {
@@ -759,8 +754,9 @@
 .scotishcenter {
   background-image: url(./img/estilos/scotishlogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 200px;
+  width: 580px;
 }
 
 .scotishright {
@@ -775,7 +771,6 @@
   background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 
 .laregalonaleft {
@@ -789,8 +784,9 @@
 .laregalonacenter {
   background-image: url(./img/estilos/laregalonalogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 220px;
+  width: 580px;
 }
 
 .laregalonaright h3 {
@@ -798,7 +794,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .laregalonaright {
@@ -810,7 +806,6 @@
   background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 .containerintensidad .intensidadleft {
   display: flex;
@@ -821,12 +816,11 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 .containerintensidad .intensidadcenter {
   background-image: url(./img/estilos/intensidadlogo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
 }
 .containerintensidad .intensidadright {
@@ -841,7 +835,6 @@
   background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
   padding: 25px;
   padding-bottom: 25px;
-  height: auto;
 }
 
 .divinoleft {
@@ -854,8 +847,9 @@
 .divinocenter {
   background-image: url(./img/estilos/divinologo.png);
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
+  height: 250px;
+  width: 580px;
 }
 
 .divinoright h3 {
@@ -863,7 +857,7 @@
   font-family: "Oswald", sans-serif;
   text-shadow: 0 0 15px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .divinoright {
@@ -897,9 +891,6 @@
   padding-bottom: 15px;
 }
 
-.seccion1choperas {
-  height: auto;
-}
 .seccion1choperas h2 {
   color: #e95b2b;
   text-shadow: 0 0 10px black;
@@ -913,21 +904,20 @@
   background-image: url(./img/choperas/choperas1.png);
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 350px;
+  width: auto;
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.seccion2choperas {
-  height: 100px;
-}
 .seccion2choperas h2 {
   color: #e95b2b;
   text-shadow: 0 0 10px black;
   font-size: 30px;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 15px;
+  margin-top: 15px;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -935,14 +925,11 @@
   background-image: url(./img/choperas/choperas2.png);
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 350px;
+  width: auto;
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
-}
-
-.seccion3choperas {
-  height: auto;
 }
 
 .seccion3choperas h2 {
@@ -958,7 +945,8 @@
   background-image: url(./img/choperas/choperas3.png);
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 350px;
+  width: auto;
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
