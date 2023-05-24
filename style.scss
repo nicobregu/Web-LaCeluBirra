@@ -719,10 +719,11 @@
 .secciongolden {
     background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtgolden {
@@ -740,10 +741,11 @@
 }
 
 .imggolden {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/goldenlogo.png);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px;
 }
 
 // estilo Golden //
@@ -753,10 +755,11 @@
 .seccionipa {
     background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtipa {
@@ -774,10 +777,12 @@
 }
 
 .imgipa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/ipalogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Ipa //
@@ -787,10 +792,11 @@
 .seccionporter {
     background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtporter {
@@ -808,10 +814,12 @@
 }
 
 .imgporter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/porterlogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Porter //
@@ -821,10 +829,11 @@
 .secciondulce {
     background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtdulce {
@@ -842,10 +851,12 @@
 }
 
 .imgdulce {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/dulcelogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Dulce //
@@ -855,10 +866,11 @@
 .seccionkolsch {
     background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtkolsch {
@@ -876,10 +888,12 @@
 }
 
 .imgkolsch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/kolschlogo.png);
+    background-position: center;
+    background-size:cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Kolsch //
@@ -889,10 +903,11 @@
 .seccionscotish {
     background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtscotish {
@@ -910,10 +925,12 @@
 }
 
 .imgscotish {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/scotishlogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Scotish //
@@ -923,10 +940,11 @@
 .seccionlaregalona {
     background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtlaregalona {
@@ -944,10 +962,12 @@
 }
 
 .imglaregalona {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/laregalonalogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo LaRegalona //
@@ -957,10 +977,11 @@
 .seccionintensidad {
     background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtintensidad {
@@ -978,10 +999,12 @@
 }
 
 .imgintensidad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/intensidadlogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 // estilo Intensidad //    
@@ -991,10 +1014,11 @@
 .secciondivino {
     background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
     margin-bottom: 0;
-    padding: 15px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .txtdivino {
@@ -1012,10 +1036,12 @@
 }
 
 .imgdivino {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    background-image: url(./img/estilos/divinologo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
 }
 
 //estilo Divino //
