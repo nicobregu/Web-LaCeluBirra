@@ -713,204 +713,169 @@
 
 /* inicio seccion1 estilo Golden */
 
-.containergolden {
+.secciongolden {
     background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
-    width: auto;
-    height: 550px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    }
-    
-    .goldenleft {
-    background-image: url(./img/estilos/latagolden.png);
-    background-position: center;
-    background-size: cover;
-    height: 550px;
-    border-radius: 5px;
-    }
-    
-    // .goldencenter {
-    // background-image: url(./img/estilos/goldenlogo.png);
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // height: 200px;
-    // width: 580px;
-    // }
-    
-    .goldenright {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.txtgolden {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
+    }
+}
+
+.imggolden {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 5px;
-    }
-    
-    .goldenright h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 35px;
-    padding-bottom: 200px;
-    margin-bottom: 5px;
-    }
 
-    .goldenright img{
-        margin-bottom: 25px;
-    }
-
+}
 // estilo Golden //
 
 // estilo Ipa //
 
-.containeripa {
+.seccionipa {
     background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
-    padding: 25px;
-    padding-bottom: 25px;
-    width: auto;
-    }
-    
-    .ipaleft h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-    }
-    
-    .ipaleft {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .txtipa {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        h2 {
+            color: #ffff;
+            text-align: center;
+            font-size: 33px;
+            text-shadow: 0 0 10px black;
+            font-family: 'Bebas Neue', cursive;
+            padding-top: 5px;
+        }
     }
     
-    .ipacenter {
-    background-image: url(./img/estilos/ipalogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 280px;
-    width: 580px;
-    }
-    
-    .iparight {
-    background-image: url(./img/estilos/lataipa.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    border-radius: 5px;
+    .imgipa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 // estilo Ipa //
 
 // estilo Porter //
 
-.containerporter {
+.seccionporter {
     background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
-    padding: 25px;
-    padding-bottom: 25px;
-    width: auto;
-    }
-    
-    .porterleft {
-    background-image: url(./img/estilos/lataporter.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    border-radius: 5px;
-    }
-    
-    .portercenter {
-    background-image: url(./img/estilos/porterlogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 580px;
-    }
-    
-    .porterright h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-    }
-    
-    .porterright {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .txtporter {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+        h2 {
+            color: #ffff;
+            text-align: center;
+            font-size: 33px;
+            text-shadow: 0 0 10px black;
+            font-family: 'Bebas Neue', cursive;
+            padding-top: 5px;
+        }
+    }
+    
+    .imgporter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 // estilo Porter //
 
 // estilo Dulce //
 
-.containerdulce {
+.secciondulce {
     background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
-    padding: 25px;
-    padding-bottom: 25px;
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    .dulceleft {
-        h3 {
-            color: white;
-            font-family: 'Oswald', sans-serif;
-            text-shadow: 0 0 15px black;
-            text-align: center;
-            font-size: 28px;
+.txtdulce {
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-        }
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
     }
+}
 
-    .dulcecenter {
-        background-image: url(./img/estilos/dulcelogo.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 200px;
-        width: 580px;
-    }
-
-    .dulceright {
-        background-image: url(./img/estilos/latadulce.png);
-        background-position: center;
-        background-size: cover;
-        height: 650px;
-        border-radius: 5px;
-    }
+.imgdulce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // estilo Dulce //
 
 // estilo Kolsch //
 
-.containerkolsch {
+.seccionkolsch {
     background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
-    padding: 25px;
-    padding-bottom: 25px;
-}
-
-.kolschleft {
-    background-image: url(./img/estilos/latakolsch.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    border-radius: 5px;
-}
-
-.kolschcenter {
-    background-image: url(./img/estilos/kolschlogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 580px;
-}
-
-.kolschright h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-}
-
-.kolschright {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txtkolsch {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
+    }
+}
+
+.imgkolsch {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -918,77 +883,67 @@
 
 // estilo Scotish //
 
-.containerscotish {
+.seccionscotish {
     background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
-    padding: 25px;
-    padding-bottom: 25px;
-}
-
-.scotishleft h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-}
-
-.scotishleft {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txtscotish {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
+    }
+}
+
+.imgscotish {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.scotishcenter {
-    background-image: url(./img/estilos/scotishlogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 580px;
-}
-
-.scotishright {
-    background-image: url(./img/estilos/latascotish.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    border-radius: 5px;
 }
 
 // estilo Scotish //
 
 // estilo LaRegalona //
 
-.containerlaregalona {
+.seccionlaregalona {
     background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
-    padding: 25px;
-    padding-bottom: 25px;
-}
-
-.laregalonaleft {
-    background-image: url(./img/estilos/latalaregalona.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    border-radius: 5px;
-}
-
-.laregalonacenter {
-    background-image: url(./img/estilos/laregalonalogo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 220px;
-    width: 580px;
-}
-
-.laregalonaright h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-}
-
-.laregalonaright {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txtlaregalona {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
+    }
+}
+
+.imglaregalona {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -996,74 +951,67 @@
 
 // estilo Intensidad //
 
-.containerintensidad {
+.seccionintensidad {
     background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
-    padding: 25px;
-    padding-bottom: 25px;
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    .intensidadleft {
-        h3 {
-            color: white;
-            font-family: 'Oswald', sans-serif;
-            text-shadow: 0 0 15px black;
-            text-align: center;
-            font-size: 28px;
-        }
+.txtintensidad {
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-        display: flex;
-        align-items: center;
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
     }
+}
 
-    .intensidadcenter {
-        background-image: url(./img/estilos/intensidadlogo.png);
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .intensidadright {
-        background-image: url(./img/estilos/lataintensidad.png);
-        background-position: center;
-        background-size: cover;
-        height: 650px;
-        border-radius: 5px;
-    }
+.imgintensidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // estilo Intensidad //    
 
 // estilo Divino //
 
-.containerdivino {
+.secciondivino {
     background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
-    padding: 25px;
-    padding-bottom: 25px;
-}
-
-.divinoleft {
-    background-image: url(./img/estilos/latadivino.png);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-}
-
-.divinocenter {
-    background-image: url(./img/estilos/divinologo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 580px;
-}
-
-.divinoright h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 15px black;
-    text-align: center;
-    font-size: 28px;
-}
-
-.divinoright {
+    height: auto;
+    margin-bottom: 0;
+    padding: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txtdivino {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 33px;
+        text-shadow: 0 0 10px black;
+        font-family: 'Bebas Neue', cursive;
+        padding-top: 5px;
+    }
+}
+
+.imgdivino {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
