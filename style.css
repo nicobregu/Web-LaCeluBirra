@@ -22,7 +22,8 @@
   font-size: 48px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
-  padding-top: 2px;
+  padding-top: 1px;
+  padding-left: 3px;
 }
 .btn-wsp:hover {
   text-decoration: none;
@@ -65,8 +66,9 @@
   color: white;
   text-shadow: 0 0 15px black;
   padding-right: 15px;
+  padding-left: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .mainindex {
@@ -214,8 +216,8 @@
   color: white;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .piedepagina {
@@ -247,7 +249,7 @@
   margin-bottom: 15px;
   margin-left: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .mainnosotros {
@@ -415,9 +417,9 @@
 .portadaproductos h1 {
   color: white;
   text-shadow: 0 0 15px black;
-  margin-right: 80px;
+  margin-right: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .mainproductos {
@@ -579,13 +581,12 @@
   text-shadow: 0 0 15px black;
   padding-top: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 /* inicio seccion1 estilo Golden */
 .secciongolden {
   background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -610,11 +611,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionipa {
   background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -639,11 +640,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionporter {
   background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -668,11 +669,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .secciondulce {
   background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -697,11 +698,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionkolsch {
   background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -726,11 +727,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionscotish {
   background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -755,11 +756,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionlaregalona {
   background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -784,11 +785,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .seccionintensidad {
   background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -813,11 +814,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .secciondivino {
   background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
-  height: auto;
   margin-bottom: 0;
   padding: 15px;
   display: flex;
@@ -842,6 +843,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .portadachoperas {
@@ -860,7 +862,7 @@
   text-shadow: 0 0 15px black;
   margin-bottom: 15px;
   font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .mainchoperas {
