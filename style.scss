@@ -47,11 +47,19 @@
 
 // boton de whatsapp //
 
+// boton de inicio //
+
+.btn-inicio{
+    text-decoration: none;
+    font-size: 10px;
+}
+
 // barra de navegacion // 
 
 .navbar {
     background-color: black;
     height: auto !important;
+    padding-top: 5px;
 
     a {
         font-size: 28px;
