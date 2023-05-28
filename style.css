@@ -98,6 +98,7 @@
   font-size: 28px;
   font-family: "Oswald", sans-serif;
   padding-top: 15px;
+  line-height: 1.3;
 }
 .prologo strong {
   color: #e95b2b;
@@ -204,11 +205,16 @@
 }
 
 .Fcenter img {
-  margin-top: 35px;
+  margin-bottom: 28px;
 }
 
 .Fright {
   text-align: center;
+}
+.Fright .fa-instagram {
+  font-size: 130px;
+  color: #e95b2b;
+  padding-top: 18px;
 }
 
 .footer h2 {
@@ -267,7 +273,7 @@
 }
 
 .seccion1Nos {
-  padding: 25px;
+  padding: 15px;
 }
 
 .articleNos1 {
@@ -282,7 +288,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 35px;
 }
 
 .asideNos1 h2 {
@@ -299,6 +305,7 @@
   font-family: "Oswald", sans-serif;
   font-size: 28px;
   text-align: center;
+  line-height: 1.3;
 }
 
 .seccion2Nos {
@@ -327,6 +334,7 @@
   text-align: center;
   font-size: 28px;
   padding-bottom: 5px;
+  line-height: 1.3;
 }
 
 .aside2Nos {
@@ -371,11 +379,12 @@
   font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 28px;
+  line-height: 1.3;
 }
 
 .seccion4Nos {
   padding: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .article4Nos {
@@ -399,6 +408,7 @@
   text-align: center;
   font-size: 28px;
   padding-bottom: 5px;
+  line-height: 1.3;
 }
 
 .aside4Nos {
