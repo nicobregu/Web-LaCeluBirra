@@ -1,1240 +1,1173 @@
-// fuentes de letras //
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&display=swap");
 /* font-family: 'Bebas Neue', cursive; */
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&family=Oswald&display=swap");
 /* font-family: 'Oswald', sans-serif; */
-
-// fuentes de letras //
-
-
-// selector universal //
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-// selector universal //
-
-// boton de whatsapp //
 
 .btn-wsp {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 15px;
-    background: #0df053;
-    color: #ffff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 48px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-    z-index: 100;
-    padding-top: 1px;
-    padding-left: 3px;
-
-    &:hover {
-        text-decoration: none;
-        color: #0df053;
-        background: #ffff;
-    }
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 15px;
+  background: #0df053;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 48px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  padding-top: 1px;
+  padding-left: 3px;
 }
 
-// boton de whatsapp //
-
-// boton de inicio //
-
-.btn-inicio{
-    text-decoration: none;
-    font-size: 10px;
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: white;
 }
 
-// barra de navegacion // 
+.btn-inicio {
+  text-decoration: none;
+  font-size: 10px;
+}
 
 .navbar {
-    background-color: black;
-    height: auto !important;
-    padding-top: 5px;
+  background-color: black;
+  height: auto !important;
+  padding-top: 5px;
+}
 
-    a {
-        font-size: 28px;
-        color: white;
-        text-decoration: none;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 10px;
-        transition: color 0.3s linear 0.2s;
+.navbar a {
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
+  transition: color 0.3s linear 0.2s;
+}
 
-        &:hover {
-            color: #e95b2b !important;
-        }
-    }
+.navbar a:hover {
+  color: #e95b2b !important;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
-// barra de navegacion //
-
-// portada index //
 .jumbotronportada {
-    background-image: url(./img/index/portadaindex.JPG);
-    background-size: cover;
-    background-position: center;
-    height: 650px;
-    margin-bottom: 0;
-    border-radius: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
-    h1 {
-        color: white;
-        text-shadow: 0 0 15px black;
-        padding-right: 15px;
-        padding-left: 15px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 55px;
-    }
+  background-image: url(./img/index/portadaindex.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-// portada index //
+.jumbotronportada h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
 
 .mainindex {
-    background: rgb(35, 31, 32);
-    background: linear-gradient(180deg, rgba(35, 31, 32, 1) 0%, rgba(233, 91, 43, 1) 50%, rgba(35, 31, 32, 1) 100%);
-    height: auto;
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  height: auto;
 }
-
-// portada index //
-
-// prologo index //
 
 .prologo {
-    height: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-
-    h2 {
-        color: white;
-        margin-top: 0;
-        padding-top: 60px;
-        text-align: center;
-        font-size: 28px;
-        font-family: 'Oswald', sans-serif;
-        padding-top: 15px;
-        line-height: 1.3;
-    }
-
-    strong {
-        color: #e95b2b;
-    }
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-// prologo index //
+.prologo h2 {
+  color: white;
+  margin-top: 0;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 15px;
+  line-height: 1.3;
+}
 
-// segunda seccion index //
+.prologo strong {
+  color: #e95b2b;
+}
 
 .container-fluid {
-    height: auto;
-    padding: 15px;
-    padding-bottom: 15px;
-
-    h2 {
-        color: white;
-        text-shadow: 0 0 10px black;
-        font-size: 40px;
-        padding: 10px;
-        font-family: 'Bebas Neue', cursive;
-    }
-
-    .btnindex {
-        background-color: #e95b2b;
-        border-radius: 5px;
-        border: solid 1px white;
-        color: white;
-        padding: 8px 10px 8px 10px;
-        font-size: 18px;
-        font-family: 'Oswald', sans-serif;
-
-        &:hover {
-            transform: scale(1.08);
-            transition: all 0.9s;
-        }
-    }
-
-    .Nleft {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    .imgnosotrosinicio {
-        background-image: url(./img/index/img1.JPG);
-        background-position: bottom;
-        background-size: cover;
-        height: 650px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.03);
-            transition: all 0.9s;
-        }
-    }
-
-    .Ncenter {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    .imgestilosinicio {
-        background-image: url(./img/index/img2.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 650px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.03);
-            transition: all 0.9s;
-        }
-    }
-
-    .Nright {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    .imgvendelaceluinicio {
-        background-image: url(./img/index/vendelaceluindex.jpg);
-        background-position: right;
-        background-size: cover;
-        height: 650px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-
-        &:hover {
-            transform: scale(1.03);
-            transition: all 0.9s;
-        }
-    }
+  height: auto;
+  padding: 15px;
+  padding-bottom: 15px;
 }
 
-// segunda seccion index //
+.container-fluid h2 {
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-size: 40px;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
 
-// video index //
+.container-fluid .btnindex {
+  background-color: #e95b2b;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: white;
+  padding: 8px 10px 8px 10px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+
+.container-fluid .btnindex:hover {
+  transform: scale(1.08);
+  transition: all 0.9s;
+}
+
+.container-fluid .Nleft {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container-fluid .imgnosotrosinicio {
+  background-image: url(./img/index/img1.JPG);
+  background-position: bottom;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.container-fluid .imgnosotrosinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
+
+.container-fluid .Ncenter {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container-fluid .imgestilosinicio {
+  background-image: url(./img/index/img2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.container-fluid .imgestilosinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
+
+.container-fluid .Nright {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container-fluid .imgvendelaceluinicio {
+  background-image: url(./img/index/vendelaceluindex.jpg);
+  background-position: right;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.container-fluid .imgvendelaceluinicio:hover {
+  transform: scale(1.03);
+  transition: all 0.9s;
+}
 
 .containervideo {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 25px;
-
-    .videoindex {
-        height: auto;
-        width: 90%;
-    }
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
 }
 
-// video index //
-
-// footer index //
+.containervideo .videoindex {
+  height: auto;
+  width: 90%;
+}
 
 .footer {
-    height: auto;
-    background-color: black;
-    padding-left: 15px;
-    padding-right: 15px;
+  height: auto;
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .Fleft {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .Fcenter {
-    text-align: center;
+  text-align: center;
 }
 
 .Fcenter img {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .Fright {
-    text-align: center;
+  text-align: center;
+}
 
-    .fa-instagram{
-        font-size: 130px;
-        color: #e95b2b;
-        padding-top: 18px;
-    }
+.Fright .fa-instagram {
+  font-size: 130px;
+  color: #e95b2b;
+  padding-top: 18px;
 }
 
 .footer h2 {
-    color: #e95b2b;
-    text-shadow: 0 0 1px white;
-    font-family: 'Bebas Neue', cursive;
-    margin-top: 30px;
+  color: #e95b2b;
+  text-shadow: 0 0 1px white;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 30px;
 }
 
 .footer p {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .piedepagina {
-    background-color: black;
-    text-align: center;
-    padding: 8px;
+  background-color: black;
+  text-align: center;
+  padding: 8px;
 }
 
 .piedepagina h3 {
-    color: white;
-    font-size: 13px;
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-// footer index //
-
-// -------------------------------------- cierre de pagina INDEX ------------------------------------------------ //
-
-// -------------------------------------- inicio de pagina NOSOTROS --------------------------------------------- //
-
-// portada Nosotros //
-
 .jumbotronNos {
-    height: 650px;
-    background-image: url(./img/nosotros/portadanosotros.jpg);
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    align-items: end;
+  height: 650px;
+  background-image: url(./img/nosotros/portadanosotros.jpg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+}
 
-    h1 {
-        color: white;
-        text-shadow: 0 0 15px black;
-        margin-bottom: 15px;
-        margin-left: 15px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 55px;
-    }
+.jumbotronNos h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
 }
 
 .mainnosotros {
-    background: rgb(35, 31, 32);
-    background: linear-gradient(180deg,
-            rgba(35, 31, 32, 1) 0%,
-            rgba(233, 91, 43, 1) 50%,
-            rgba(35, 31, 32, 1) 100%);
-    height: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-// portada Nosotros //
-
-// seccion1 Nosotros //
-
 .seccion1Nos {
-    padding: 15px
+  padding: 15px;
 }
 
 .articleNos1 {
-    background-image: url(./img/nosotros/nosotros2.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    height: 450px;
+  background-image: url(./img/nosotros/nosotros2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 450px;
 }
 
 .asideNos1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
 }
 
 .asideNos1 h2 {
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 10px black;
-    font-size: 60px;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 10px;
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
 }
 
 .asideNos1 h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    line-height: 1.3;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.3;
 }
 
-// seccion1 Nosotros //
-
-// seccion2 Nosotros //
-
 .seccion2Nos {
-    padding: 25px;
-    padding-bottom: 25px;
+  padding: 25px;
+  padding-bottom: 25px;
 }
 
 .article2Nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
 }
 
 .article2Nos h2 {
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 10px black;
-    font-size: 60px;
-    font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .article2Nos h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 28px;
-    padding-bottom: 5px;
-    line-height: 1.3;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 5px;
+  line-height: 1.3;
 }
 
 .aside2Nos {
-    background-image: url(./img/nosotros/apasionadosnosotros.png);
-    background-position: center;
-    background-size: cover;
-    height: 450px;
-    border-radius: 5px;
+  background-image: url(./img/nosotros/apasionadosnosotros.png);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  border-radius: 5px;
 }
 
-// seccion2 Nosotros //
-
-// seccion3 Nosotros //
-
 .seccion3Nos {
-    padding: 25px;
-    padding-bottom: 25px;
+  padding: 25px;
+  padding-bottom: 25px;
 }
 
 .article3Nos {
-    background-image: url(./img/nosotros/artesanosnosotros.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 450px;
-    border-radius: 5px;
+  background-image: url(./img/nosotros/artesanosnosotros.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  border-radius: 5px;
 }
 
 .aside3Nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
 }
 
 .aside3Nos h2 {
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 10px black;
-    font-size: 60px;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 10px;
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 10px;
 }
 
 .aside3Nos h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 28px;
-    line-height: 1.3;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.3;
 }
 
-// seccion3 Nosotros //
-
-// seccion4 Nosotros //
-
 .seccion4Nos {
-    padding: 25px;
-    padding-bottom: 20px;
+  padding: 25px;
+  padding-bottom: 20px;
 }
 
 .article4Nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
 }
 
 .article4Nos h2 {
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 10px black;
-    font-size: 60px;
-    font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .article4Nos h3 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 28px;
-    padding-bottom: 5px;
-    line-height: 1.3;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 5px;
+  line-height: 1.3;
 }
 
 .aside4Nos {
-    background-image: url(./img/nosotros/cervecerosnosotros.jpg);
-    background-position: top;
-    background-size: cover;
-    height: 450px;
-    border-radius: 5px;
+  background-image: url(./img/nosotros/cervecerosnosotros.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 450px;
+  border-radius: 5px;
 }
-
-// seccion4 Nosotros //
-
-// ---------------------------------------------- cierre de pagina NOSOTROS -------------------------------------------- //
-
-// ---------------------------------------------- inicio de pagina PRODUCTOS ------------------------------------------- //
-
-// portada productos //
 
 .portadaproductos {
-    background-image: url(./img/productos/portadaproductos.JPG);
-    background-position: top;
-    background-size: cover;
-    height: 650px;
-    margin-bottom: 0;
-    border-radius: 0;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
-    h1 {
-        color: white;
-        text-shadow: 0 0 15px black;
-        margin-right: 15px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 55px;
-    }
+  background-image: url(./img/productos/portadaproductos.JPG);
+  background-position: top;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-// portada Productos //
+.portadaproductos h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-right: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
 
 .mainproductos {
-    background: rgb(35, 31, 32);
-    background: linear-gradient(180deg, rgba(35, 31, 32, 1) 0%, rgba(233, 91, 43, 1) 50%, rgba(35, 31, 32, 1) 100%);
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
 }
 
-// seccion1 Productos //
-
 .containerlatasPro {
-    margin-bottom: 0;
-    padding: 15px;
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .latasPro {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #e95b2b;
-        text-align: center;
-        font-size: 40px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.latasPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
+}
 
-    p {
-        color: white;
-        text-align: center;
-        font-size: 28px;
-        font-family: 'Oswald', sans-serif;
-        margin-bottom: 5px;
-    }
+.latasPro p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 5px;
 }
 
 .imglatasPro {
-    background-image: url(./img/productos/latasproductos.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: auto;
-    margin-top: 5px;
+  background-image: url(./img/productos/latasproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: auto;
+  margin-top: 5px;
 }
-
-// seccion1 Productos //
-
-// seccion2 Productos //
 
 .containergrowlersPro {
-    margin-bottom: 0;
-    padding: 15px;
-    padding-bottom: 15px;
-
-    .growlersPro {
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        h2 {
-            color: #e95b2b;
-            text-align: center;
-            font-size: 40px;
-            text-shadow: 0 0 10px black;
-            font-family: 'Bebas Neue', cursive;
-        }
-
-        p {
-            color: white;
-            text-align: center;
-            font-size: 28px;
-            font-family: 'Oswald', sans-serif;
-        }
-    }
-
-    .imggrowlersPro {
-        background-image: url(./img/productos/growlerproductos.png);
-        background-position: center;
-        background-size: cover;
-        height: 350px;
-        width: auto;
-        margin-top: 5px;
-    }
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
 }
 
-// seccion2 Productos //
+.containergrowlersPro .growlersPro {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-// seccion3 Productos //
+.containergrowlersPro .growlersPro h2 {
+  color: #e95b2b;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+}
+
+.containergrowlersPro .growlersPro p {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+.containergrowlersPro .imggrowlersPro {
+  background-image: url(./img/productos/growlerproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: auto;
+  margin-top: 5px;
+}
 
 .containterchoperasPro {
-    margin-bottom: 0;
-    padding: 15px;
-    padding-bottom: 15px;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
 }
 
 .choperasPro {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .choperasPro h2 {
-    color: #e95b2b;
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 0 0 10px black;
-    font-family: 'Bebas Neue', cursive;
+  color: #e95b2b;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
 }
 
 .choperasPro p {
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
 }
 
 .imgchoperasPro {
-    background-image: url(./img/productos/choperasproductos.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: auto;
-    margin-top: 5px;
+  background-image: url(./img/productos/choperasproductos.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: auto;
+  margin-top: 5px;
 }
 
-// seccion3 Productos //
-
-// seccion4 Productos //
-
 .containerbarrilesPro {
-    margin-bottom: 0;
-    padding: 15px;
-    padding-bottom: 15px;
+  margin-bottom: 0;
+  padding: 15px;
+  padding-bottom: 15px;
 }
 
 .barrilesPro {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .barrilesPro h2 {
-    color: #e95b2b;
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 0 0 10px black;
-    font-family: 'Bebas Neue', cursive;
+  color: #e95b2b;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
 }
 
 .barrilesPro p {
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
 }
 
 .imgbarrilesPro {
-    background-image: url(./img/productos/barrilesproductos.jpg);
-    background-position: top;
-    background-size: cover;
-    height: 350px;
-    width: auto;
-    margin-top: 5px;
+  background-image: url(./img/productos/barrilesproductos.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 350px;
+  width: auto;
+  margin-top: 5px;
 }
-
-// seccion4 Productos //
-
-// ---------------------------------------------- cierre de pagina PRODUCTOS ---------------------------------------------- //
-
-// ---------------------------------------------- inicio de pagina ESTILOS ------------------------------------------------ //
-
-// portada Estilos //
 
 .portadaestilos {
-    background-image: url(./img/estilos/portadaestilos.jpg);
-    background-size: cover;
-    background-position: top;
-    height: 650px;
-    margin-bottom: 0;
-    border-radius: 0;
-    display: flex;
-    justify-content: center;
-
-    h1 {
-        color: white;
-        text-shadow: 0 0 15px black;
-        padding-top: 15px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 55px;
-    }
+  background-image: url(./img/estilos/portadaestilos.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
 }
 
-// cierre portada Estilos //
-
-// estilo Golden //
+.portadaestilos h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  padding-top: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
 
 /* inicio seccion1 estilo Golden */
-
 .secciongolden {
-    background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtgolden {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtgolden h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imggolden {
-    background-image: url(./img/estilos/goldenlogo.png);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-    width: 350px;
+  background-image: url(./img/estilos/goldenlogo.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 350px;
 }
 
-// estilo Golden //
-
-// estilo Ipa //
-
 .seccionipa {
-    background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtipa {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtipa h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgipa {
-    background-image: url(./img/estilos/ipalogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/ipalogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Ipa //
-
-// estilo Porter //
-
 .seccionporter {
-    background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #83191f, #9b3e52, #a96582, #b28ba8, #beb0c5, #b8b0c4, #b3b0c1, #afb0be, #8c8fa6, #68708e, #445277, #1a3761);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtporter {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtporter h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgporter {
-    background-image: url(./img/estilos/porterlogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/porterlogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Porter //
-
-// estilo Dulce //
-
 .secciondulce {
-    background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtdulce {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtdulce h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgdulce {
-    background-image: url(./img/estilos/dulcelogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/dulcelogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Dulce //
-
-// estilo Kolsch //
-
 .seccionkolsch {
-    background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtkolsch {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtkolsch h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgkolsch {
-    background-image: url(./img/estilos/kolschlogo.png);
-    background-position: center;
-    background-size:cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/kolschlogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Kolsch //
-
-// estilo Scotish //
-
 .seccionscotish {
-    background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtscotish {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtscotish h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgscotish {
-    background-image: url(./img/estilos/scotishlogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/scotishlogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Scotish //
-
-// estilo LaRegalona //
-
 .seccionlaregalona {
-    background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtlaregalona {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtlaregalona h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imglaregalona {
-    background-image: url(./img/estilos/laregalonalogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/laregalonalogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo LaRegalona //
-
-// estilo Intensidad //
-
 .seccionintensidad {
-    background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
-    margin-bottom: 0;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .txtintensidad {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
+.txtintensidad h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
 }
 
 .imgintensidad {
-    background-image: url(./img/estilos/intensidadlogo.png);
-    background-position: center;
-    background-size: cover;
-    height: 350px;
-    width: 350px;
-    border-radius: 5px;
+  background-image: url(./img/estilos/intensidadlogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
 }
 
-// estilo Intensidad //    
-
-// estilo Divino //
-
 .secciondivino {
-    background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
+  background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtdivino {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.txtdivino h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
+}
+
+.imgdivino {
+  background-image: url(./img/estilos/divinologo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.seccionris {
+    background-image: linear-gradient(to right, #08090d, #20242c, #333e4c, #455a6e, #557992, #59809c, #5d88a6, #618fb0, #5b7fa1, #557092, #4f6183, #495373);
     margin-bottom: 0;
     padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.txtdivino {
+  }
+  
+  .txtris {
     padding-top: 10px;
     padding-bottom: 10px;
-
-    h2 {
-        color: #ffff;
-        text-align: center;
-        font-size: 33px;
-        text-shadow: 0 0 10px black;
-        font-family: 'Bebas Neue', cursive;
-        padding-top: 5px;
-    }
-}
-
-.imgdivino {
-    background-image: url(./img/estilos/divinologo.png);
+  }
+  
+  .txtris h2 {
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    text-shadow: 0 0 10px black;
+    font-family: "Bebas Neue", cursive;
+    padding-top: 5px;
+  }
+  
+  .imgris {
+    background-image: url(./img/estilos/rislogo.png);
     background-position: center;
     background-size: cover;
     height: 350px;
     width: 350px;
     border-radius: 5px;
-}
+  }
 
-//estilo Divino //
-
-// ------------------------------------------------- cierre de pagina ESTILOS --------------------------------------- //
-
-// ------------------------------------------------- inicio de pagina CHOPERAS -------------------------------------- //
-
-// portada Choperas //
-
-.portadachoperas {
-    background-image: url(./img/choperas/portadaachoperas.png);
+  .seccionargenta {
+    background-image: linear-gradient(to right, #db2b1d, #d81054, #c02b7e, #974599, #6656a2, #7058a2, #795ba3, #825da3, #bb5593, #e05770, #ea6e44, #d7920d);
+    margin-bottom: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .txtargenta {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .txtargenta h2 {
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    text-shadow: 0 0 10px black;
+    font-family: "Bebas Neue", cursive;
+    padding-top: 5px;
+  }
+  
+  .imgargenta {
+    background-image: url(./img/estilos/ipaargentalogo.png);
     background-position: center;
     background-size: cover;
-    height: 650px;
-    margin-bottom: 0;
-    border-radius: 0;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+  }
 
-    h1 {
-        color: white;
-        text-shadow: 0 0 15px black;
-        margin-bottom: 15px;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 55px;
-        padding-left: 15px;
-    }
+  .seccionipl {
+    background-image: linear-gradient(to right, #91c3d4, #9bccce, #add3c8, #c2d8c6, #d6ddc9, #d6ddc9, #d6ddc9, #d6ddc9, #c2d8c6, #add3c8, #9bccce, #91c3d4);
+    margin-bottom: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .txtipl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .txtipl h2 {
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    text-shadow: 0 0 10px black;
+    font-family: "Bebas Neue", cursive;
+    padding-top: 5px;
+  }
+  
+  .imgipl {
+    background-image: url(./img/estilos/ipllogo.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+  }
+
+.portadachoperas {
+  background-image: url(./img/choperas/portadaachoperas.png);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
 
-// portada choperas //
+
+
+.portadachoperas h1 {
+  color: white;
+  text-shadow: 0 0 15px black;
+  margin-bottom: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+  padding-left: 15px;
+}
 
 .mainchoperas {
-    height: auto;
-    background: rgb(35, 31, 32);
-    background: linear-gradient(180deg,
-            rgba(35, 31, 32, 1) 0%,
-            rgba(233, 91, 43, 1) 50%,
-            rgba(35, 31, 32, 1) 100%);
-    padding-bottom: 15px;
+  height: auto;
+  background: rgb(35, 31, 32);
+  background: linear-gradient(180deg, rgb(35, 31, 32) 0%, rgb(233, 91, 43) 50%, rgb(35, 31, 32) 100%);
+  padding-bottom: 15px;
 }
 
-// seccion1 Choperas //
-
-.seccion1choperas {
-    h2 {
-        color: #e95b2b;
-        text-shadow: 0 0 10px black;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 25px;
-        font-family: "Bebas Neue", cursive;
-    }
+.seccion1choperas h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .imgseccion1choperas {
-    background-image: url(./img/choperas/choperas1.png);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-    width: auto;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+  background-image: url(./img/choperas/choperas1.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-// seccion1 Choperas //
-
-// seccion2 Choperas //
-
-.seccion2choperas {
-    h2 {
-        color: #e95b2b;
-        text-shadow: 0 0 10px black;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 15px;
-        margin-top: 15px;
-        font-family: 'Bebas Neue', cursive;
-    }
+.seccion2choperas h2 {
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 15px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .imgseccion2choperas {
-    background-image: url(./img/choperas/choperas2.png);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-    width: auto;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+  background-image: url(./img/choperas/choperas2.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-// seccion2 Choperas //
-
-// seccion3 Choperas //
-
 .seccion3choperas h2 {
-    color: #e95b2b;
-    text-shadow: 0 0 10px black;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 25px;
-    font-family: 'Bebas Neue', cursive;
+  color: #e95b2b;
+  text-shadow: 0 0 10px black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .imgseccion3choperas {
-    background-image: url(./img/choperas/choperas3.png);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-    width: auto;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+  background-image: url(./img/choperas/choperas3.png);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-// seccion3 Choperas //
-
-// ----------------------------------------------- cierre de pagina CHOPERAS ---------------------------------------------- //
-
-// ----------------------------------------------- inicio de pagina CONTACTO ---------------------------------------------- //
-
 .txtcontacto {
-    color: white;
-    text-shadow: 0 0 15px black;
-    padding-bottom: 20px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+  color: white;
+  text-shadow: 0 0 15px black;
+  padding-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
 }
 
 .formulario {
-    background-image: url(./img/contacto/portadacontacto.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 650px;
-    padding-left: 15px;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    color: white;
-    text-shadow: 0 0 2px black;
-    display: row;
-    align-items: center;
-
-    .nombreyapellido,
-    .email,
-    .codigodearea,
-    .telefono,
-    .motivoconsulta,
-    .mensaje {
-        font-size: 18px;
-        padding-bottom: 30px;
-        font-family: 'Oswald', sans-serif;
-    }
-
-    .nombreyapellido {
-        padding-bottom: 30px;
-    }
-
-    .btncontacto {
-        background-color: #e95b2b;
-        border-radius: 5px;
-        border: solid 1px white;
-        color: white;
-        font-size: 20px;
-        padding: 8px 10px;
-        font-family: 'Oswald', sans-serif;
-        transition: all 0.9s;
-
-        &:hover {
-            transform: scale(1.08);
-        }
-    }
+  background-image: url(./img/contacto/portadacontacto.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 2px black;
+  display: row;
+  align-items: center;
 }
 
-// ------------------------------------------------ cierre de pagina CONTACTO ------------------------------------------ //
+.formulario .nombreyapellido,
+.formulario .email,
+.formulario .codigodearea,
+.formulario .telefono,
+.formulario .motivoconsulta,
+.formulario .mensaje {
+  font-size: 18px;
+  padding-bottom: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.formulario .nombreyapellido {
+  padding-bottom: 30px;
+}
+
+.formulario .btncontacto {
+  background-color: #e95b2b;
+  border-radius: 5px;
+  border: solid 1px white;
+  color: white;
+  font-size: 20px;
+  padding: 8px 10px;
+  font-family: "Oswald", sans-serif;
+  transition: all 0.9s;
+}
+
+.formulario .btncontacto:hover {
+  transform: scale(1.08);
+}
+
+
+
+/*# sourceMappingURL=style.scss.map */

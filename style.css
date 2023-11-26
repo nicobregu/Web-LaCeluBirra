@@ -25,6 +25,7 @@
   padding-top: 1px;
   padding-left: 3px;
 }
+
 .btn-wsp:hover {
   text-decoration: none;
   color: #0df053;
@@ -41,6 +42,7 @@
   height: auto !important;
   padding-top: 5px;
 }
+
 .navbar a {
   font-size: 28px;
   color: white;
@@ -49,6 +51,7 @@
   padding-top: 10px;
   transition: color 0.3s linear 0.2s;
 }
+
 .navbar a:hover {
   color: #e95b2b !important;
 }
@@ -68,6 +71,7 @@
   justify-content: end;
   align-items: center;
 }
+
 .jumbotronportada h1 {
   color: white;
   text-shadow: 0 0 15px black;
@@ -90,6 +94,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
 .prologo h2 {
   color: white;
   margin-top: 0;
@@ -100,6 +105,7 @@
   padding-top: 15px;
   line-height: 1.3;
 }
+
 .prologo strong {
   color: #e95b2b;
 }
@@ -109,6 +115,7 @@
   padding: 15px;
   padding-bottom: 15px;
 }
+
 .container-fluid h2 {
   color: white;
   text-shadow: 0 0 10px black;
@@ -116,6 +123,7 @@
   padding: 10px;
   font-family: "Bebas Neue", cursive;
 }
+
 .container-fluid .btnindex {
   background-color: #e95b2b;
   border-radius: 5px;
@@ -125,14 +133,17 @@
   font-size: 18px;
   font-family: "Oswald", sans-serif;
 }
+
 .container-fluid .btnindex:hover {
   transform: scale(1.08);
   transition: all 0.9s;
 }
+
 .container-fluid .Nleft {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .container-fluid .imgnosotrosinicio {
   background-image: url(./img/index/img1.JPG);
   background-position: bottom;
@@ -141,14 +152,17 @@
   margin-bottom: 5px;
   border-radius: 5px;
 }
+
 .container-fluid .imgnosotrosinicio:hover {
   transform: scale(1.03);
   transition: all 0.9s;
 }
+
 .container-fluid .Ncenter {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .container-fluid .imgestilosinicio {
   background-image: url(./img/index/img2.jpg);
   background-position: center;
@@ -157,14 +171,17 @@
   margin-bottom: 5px;
   border-radius: 5px;
 }
+
 .container-fluid .imgestilosinicio:hover {
   transform: scale(1.03);
   transition: all 0.9s;
 }
+
 .container-fluid .Nright {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .container-fluid .imgvendelaceluinicio {
   background-image: url(./img/index/vendelaceluindex.jpg);
   background-position: right;
@@ -173,6 +190,7 @@
   margin-bottom: 5px;
   border-radius: 5px;
 }
+
 .container-fluid .imgvendelaceluinicio:hover {
   transform: scale(1.03);
   transition: all 0.9s;
@@ -184,6 +202,7 @@
   justify-content: center;
   padding-bottom: 25px;
 }
+
 .containervideo .videoindex {
   height: auto;
   width: 90%;
@@ -211,6 +230,7 @@
 .Fright {
   text-align: center;
 }
+
 .Fright .fa-instagram {
   font-size: 130px;
   color: #e95b2b;
@@ -255,6 +275,7 @@
   display: flex;
   align-items: end;
 }
+
 .jumbotronNos h1 {
   color: white;
   text-shadow: 0 0 15px black;
@@ -430,6 +451,7 @@
   justify-content: end;
   align-items: center;
 }
+
 .portadaproductos h1 {
   color: white;
   text-shadow: 0 0 15px black;
@@ -456,6 +478,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .latasPro h2 {
   color: #e95b2b;
   text-align: center;
@@ -464,6 +487,7 @@
   font-family: "Bebas Neue", cursive;
   padding-top: 5px;
 }
+
 .latasPro p {
   color: white;
   text-align: center;
@@ -486,10 +510,12 @@
   padding: 15px;
   padding-bottom: 15px;
 }
+
 .containergrowlersPro .growlersPro {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .containergrowlersPro .growlersPro h2 {
   color: #e95b2b;
   text-align: center;
@@ -497,12 +523,14 @@
   text-shadow: 0 0 10px black;
   font-family: "Bebas Neue", cursive;
 }
+
 .containergrowlersPro .growlersPro p {
   color: white;
   text-align: center;
   font-size: 28px;
   font-family: "Oswald", sans-serif;
 }
+
 .containergrowlersPro .imggrowlersPro {
   background-image: url(./img/productos/growlerproductos.png);
   background-position: center;
@@ -592,6 +620,7 @@
   display: flex;
   justify-content: center;
 }
+
 .portadaestilos h1 {
   color: white;
   text-shadow: 0 0 15px black;
@@ -615,6 +644,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtgolden h2 {
   color: white;
   text-align: center;
@@ -646,6 +676,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtipa h2 {
   color: white;
   text-align: center;
@@ -665,7 +696,7 @@
 }
 
 .seccionporter {
-  background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
+  background-image: linear-gradient(to right, #83191f, #9b3e52, #a96582, #b28ba8, #beb0c5, #b8b0c4, #b3b0c1, #afb0be, #8c8fa6, #68708e, #445277, #1a3761);
   margin-bottom: 0;
   padding: 25px;
   display: flex;
@@ -678,6 +709,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtporter h2 {
   color: white;
   text-align: center;
@@ -710,6 +742,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtdulce h2 {
   color: white;
   text-align: center;
@@ -742,6 +775,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtkolsch h2 {
   color: white;
   text-align: center;
@@ -774,6 +808,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtscotish h2 {
   color: white;
   text-align: center;
@@ -806,6 +841,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtlaregalona h2 {
   color: white;
   text-align: center;
@@ -838,6 +874,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtintensidad h2 {
   color: white;
   text-align: center;
@@ -870,6 +907,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .txtdivino h2 {
   color: white;
   text-align: center;
@@ -888,6 +926,105 @@
   border-radius: 5px;
 }
 
+.seccionris {
+  background-image: linear-gradient(to right, #08090d, #20242c, #333e4c, #455a6e, #557992, #59809c, #5d88a6, #618fb0, #5b7fa1, #557092, #4f6183, #495373);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtris {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.txtris h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
+}
+
+.imgris {
+  background-image: url(./img/estilos/rislogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.seccionargenta {
+  background-image: linear-gradient(to right, #db2b1d, #d81054, #c02b7e, #974599, #6656a2, #7058a2, #795ba3, #825da3, #bb5593, #e05770, #ea6e44, #d7920d);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtargenta {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.txtargenta h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
+}
+
+.imgargenta {
+  background-image: url(./img/estilos/ipaargentalogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.seccionipl {
+  background-image: linear-gradient(to right, #91c3d4, #9bccce, #add3c8, #c2d8c6, #d6ddc9, #d6ddc9, #d6ddc9, #d6ddc9, #c2d8c6, #add3c8, #9bccce, #91c3d4);
+  margin-bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtipl {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.txtipl h2 {
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  text-shadow: 0 0 10px black;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5px;
+}
+
+.imgipl {
+  background-image: url(./img/estilos/ipllogo.png);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+}
+
 .portadachoperas {
   background-image: url(./img/choperas/portadaachoperas.png);
   background-position: center;
@@ -899,6 +1036,7 @@
   align-items: end;
   justify-content: center;
 }
+
 .portadachoperas h1 {
   color: white;
   text-shadow: 0 0 15px black;
@@ -997,6 +1135,7 @@
   display: row;
   align-items: center;
 }
+
 .formulario .nombreyapellido,
 .formulario .email,
 .formulario .codigodearea,
@@ -1007,9 +1146,11 @@
   padding-bottom: 30px;
   font-family: "Oswald", sans-serif;
 }
+
 .formulario .nombreyapellido {
   padding-bottom: 30px;
 }
+
 .formulario .btncontacto {
   background-color: #e95b2b;
   border-radius: 5px;
@@ -1020,8 +1161,11 @@
   font-family: "Oswald", sans-serif;
   transition: all 0.9s;
 }
+
 .formulario .btncontacto:hover {
   transform: scale(1.08);
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
